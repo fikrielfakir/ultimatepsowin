@@ -1,0 +1,29 @@
+modules = ["dotnet-7.0", "dotnet-8.0"]
+[agent]
+expertMode = true
+
+[nix]
+channel = "stable-25_05"
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Build and Test"
+
+[[workflows.workflow]]
+name = "Build and Test"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "dotnet build src/UltimatePOS.Core && dotnet build src/UltimatePOS.Data && dotnet build src/UltimatePOS.Services && dotnet test tests/UltimatePOS.Tests"
+
+[workflows.workflow.metadata]
+outputType = "console"

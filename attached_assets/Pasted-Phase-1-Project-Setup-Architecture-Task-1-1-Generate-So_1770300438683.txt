@@ -1,0 +1,49 @@
+Phase 1: Project Setup & Architecture
+Task 1.1: Generate Solution Structure
+Create a complete WinUI 3 solution structure for a POS system called "UltimatePOS" with the following projects:
+1. UltimatePOS.Core (class library for entities and interfaces)
+2. UltimatePOS.Data (data access with Entity Framework Core and SQLite)
+3. UltimatePOS.Services (business logic layer)
+4. UltimatePOS.WinUI (main WinUI 3 application)
+5. UltimatePOS.Tests (unit tests)
+
+Include folder structure, namespaces, and basic project references. Use .NET 8 and Windows App SDK 1.5.
+Task 1.2: Generate Database Schema
+Design a complete SQLite database schema with Entity Framework Core for a multi-business POS system with these modules:
+- Multi-business and location management
+- User management with role-based access control (Admin, Cashier, Warehouse Manager)
+- Products (single, variable with variants, lots) with brands, categories, sub-categories
+- Customers and suppliers with credit limits, payment terms, loyalty points
+- Purchase orders, invoices, returns
+- Sales, quotations, invoices, returns
+- Stock transfers and adjustments
+- Manufacturing (BOM, production orders)
+- Expenses by category
+- Payment accounts and transactions
+- Tax rates and groups
+- Cash register operations
+
+Include all tables, relationships, indexes, and audit fields (CreatedBy, CreatedDate, ModifiedBy, ModifiedDate). Generate C# entity classes with data annotations and Fluent API configuration.
+Task 1.3: Generate Base Architecture Classes
+Create a complete MVVM architecture for WinUI 3 with:
+1. Base ViewModel class with INotifyPropertyChanged
+2. RelayCommand and AsyncRelayCommand implementations
+3. Repository interface and base implementation with generic CRUD operations
+4. Unit of Work pattern
+5. Service interface and base class
+6. Dependency injection container setup with Microsoft.Extensions.DependencyInjection
+7. Navigation service for view navigation
+8. Dialog service for popups
+9. Message bus for component communication
+
+Use CommunityToolkit.Mvvm where appropriate. Include complete, production-ready code.
+Task 1.4: Generate App Configuration
+Create a complete configuration system for UltimatePOS including:
+1. AppSettings.json with database connection, app settings
+2. Configuration model classes
+3. Configuration service to read/write settings
+4. Theme configuration (Light/Dark mode support)
+5. Localization setup for multi-language support
+6. Logging configuration with Serilog (file and debug output)
+
+Include code to load configuration at app startup.
