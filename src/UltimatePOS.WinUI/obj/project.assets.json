@@ -1724,7 +1724,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "BCrypt.Net-Next": "4.0.3"
+          "CommunityToolkit.Mvvm": "8.2.2"
         },
         "compile": {
           "bin/placeholder/UltimatePOS.Core.dll": {}
@@ -3363,7 +3363,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "BCrypt.Net-Next": "4.0.3"
+          "CommunityToolkit.Mvvm": "8.2.2"
         },
         "compile": {
           "bin/placeholder/UltimatePOS.Core.dll": {}
@@ -5002,7 +5002,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "BCrypt.Net-Next": "4.0.3"
+          "CommunityToolkit.Mvvm": "8.2.2"
         },
         "compile": {
           "bin/placeholder/UltimatePOS.Core.dll": {}
@@ -6641,7 +6641,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "BCrypt.Net-Next": "4.0.3"
+          "CommunityToolkit.Mvvm": "8.2.2"
         },
         "compile": {
           "bin/placeholder/UltimatePOS.Core.dll": {}

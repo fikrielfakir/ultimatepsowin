@@ -50,9 +50,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "BCrypt.Net-Next": {
+            "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[4.0.3, )"
+              "version": "[8.2.2, )"
             }
           },
           "imports": [
