@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/workspace/tests/UltimatePOS.Tests/UltimatePOS.Tests.csproj": {}
+    "C:\\Users\\fikri\\Desktop\\ultimateposwind\\tests\\UltimatePOS.Tests\\UltimatePOS.Tests.csproj": {}
   },
   "projects": {
-    "/home/runner/workspace/tests/UltimatePOS.Tests/UltimatePOS.Tests.csproj": {
+    "C:\\Users\\fikri\\Desktop\\ultimateposwind\\tests\\UltimatePOS.Tests\\UltimatePOS.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/workspace/tests/UltimatePOS.Tests/UltimatePOS.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\fikri\\Desktop\\ultimateposwind\\tests\\UltimatePOS.Tests\\UltimatePOS.Tests.csproj",
         "projectName": "UltimatePOS.Tests",
-        "projectPath": "/home/runner/workspace/tests/UltimatePOS.Tests/UltimatePOS.Tests.csproj",
-        "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/workspace/tests/UltimatePOS.Tests/obj/",
+        "projectPath": "C:\\Users\\fikri\\Desktop\\ultimateposwind\\tests\\UltimatePOS.Tests\\UltimatePOS.Tests.csproj",
+        "packagesPath": "C:\\Users\\fikri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fikri\\Desktop\\ultimateposwind\\tests\\UltimatePOS.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/runner/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\fikri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -76,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/nix/store/1blv644vinali34masnw6g5fjjjaa4y6-dotnet-sdk-8.0.416/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

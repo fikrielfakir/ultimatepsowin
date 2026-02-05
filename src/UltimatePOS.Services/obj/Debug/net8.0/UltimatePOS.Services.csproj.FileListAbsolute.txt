@@ -33,3 +33,6 @@ C:/Users/fikri/Desktop/ultimateposwind/src/UltimatePOS.Services/obj/Debug/net8.0
 /home/runner/workspace/src/UltimatePOS.Services/obj/Debug/net8.0/refint/UltimatePOS.Services.dll
 /home/runner/workspace/src/UltimatePOS.Services/obj/Debug/net8.0/UltimatePOS.Services.pdb
 /home/runner/workspace/src/UltimatePOS.Services/obj/Debug/net8.0/ref/UltimatePOS.Services.dll
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\obj\Debug\net8.0\UltimatePOS.Services.dll
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\obj\Debug\net8.0\refint\UltimatePOS.Services.dll
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\obj\Debug\net8.0\UltimatePOS.Services.pdb

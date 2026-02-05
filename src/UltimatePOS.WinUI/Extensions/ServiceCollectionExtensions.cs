@@ -82,11 +82,8 @@ public static class ServiceCollectionExtensions
     public static IServiceCollection AddViewModels(this IServiceCollection services)
     {
         // ViewModels will be registered here as we create them
-        // Example:
-        // services.AddTransient<LoginViewModel>();
-        // services.AddTransient<DashboardViewModel>();
-        // services.AddTransient<ProductListViewModel>();
-
+        services.AddTransient<UltimatePOS.Core.ViewModels.LoginViewModel>();
+        
         return services;
     }
 }
