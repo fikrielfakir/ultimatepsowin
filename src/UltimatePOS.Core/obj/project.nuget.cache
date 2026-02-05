@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xtD3P4IJiXI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fikri\\Desktop\\ultimateposwind\\src\\UltimatePOS.Core\\UltimatePOS.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fikri\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

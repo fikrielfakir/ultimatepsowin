@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/UltimatePOS.Core/UltimatePOS.Core.csproj" />
+    <Project Path="src/UltimatePOS.Data/UltimatePOS.Data.csproj" />
+    <Project Path="src/UltimatePOS.Services/UltimatePOS.Services.csproj" />
+    <Project Path="src/UltimatePOS.WinUI/UltimatePOS.WinUI.csproj">
+      <Platform Project="x86" />
+    </Project>
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/UltimatePOS.Tests/UltimatePOS.Tests.csproj" />
+  </Folder>
+</Solution>

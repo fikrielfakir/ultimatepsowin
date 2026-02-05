@@ -1,0 +1,17 @@
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\bin\Debug\net8.0\UltimatePOS.Data.deps.json
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\bin\Debug\net8.0\UltimatePOS.Data.runtimeconfig.json
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\bin\Debug\net8.0\UltimatePOS.Data.dll
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\bin\Debug\net8.0\UltimatePOS.Data.pdb
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\bin\Debug\net8.0\UltimatePOS.Core.dll
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\bin\Debug\net8.0\UltimatePOS.Core.pdb
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\UltimatePOS.Data.csproj.AssemblyReference.cache
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\UltimatePOS.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\UltimatePOS.Data.AssemblyInfoInputs.cache
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\UltimatePOS.Data.AssemblyInfo.cs
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\UltimatePOS.Data.csproj.CoreCompileInputs.cache
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\Ultimate.C375EB24.Up2Date
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\UltimatePOS.Data.dll
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\refint\UltimatePOS.Data.dll
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\UltimatePOS.Data.pdb
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\UltimatePOS.Data.genruntimeconfig.cache
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\ref\UltimatePOS.Data.dll

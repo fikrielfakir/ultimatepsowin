@@ -1,0 +1,13 @@
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\bin\Debug\net10.0-windows10.0.19041.0\UltimatePOS.Core.dll
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\bin\Debug\net10.0-windows10.0.19041.0\UltimatePOS.Data.dll
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\bin\Debug\net10.0-windows10.0.19041.0\UltimatePOS.Core.pdb
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\bin\Debug\net10.0-windows10.0.19041.0\UltimatePOS.Data.pdb
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\obj\Debug\net10.0-windows10.0.19041.0\UltimatePOS.Services.csproj.AssemblyReference.cache
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\obj\Debug\net10.0-windows10.0.19041.0\UltimatePOS.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\obj\Debug\net10.0-windows10.0.19041.0\UltimatePOS.Services.AssemblyInfoInputs.cache
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\obj\Debug\net10.0-windows10.0.19041.0\UltimatePOS.Services.AssemblyInfo.cs
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\obj\Debug\net10.0-windows10.0.19041.0\UltimatePOS.Services.csproj.CoreCompileInputs.cache
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\obj\Debug\net10.0-windows10.0.19041.0\Ultimate.0DE0191C.Up2Date
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\obj\Debug\net10.0-windows10.0.19041.0\UltimatePOS.Services.dll
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\obj\Debug\net10.0-windows10.0.19041.0\refint\UltimatePOS.Services.dll
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\obj\Debug\net10.0-windows10.0.19041.0\UltimatePOS.Services.pdb
