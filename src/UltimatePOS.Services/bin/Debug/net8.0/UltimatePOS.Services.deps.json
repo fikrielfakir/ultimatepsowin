@@ -24,6 +24,14 @@
           }
         }
       },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.2.1"
+          }
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.1": {
         "dependencies": {
           "SQLitePCLRaw.core": "2.1.6"
@@ -348,7 +356,7 @@
       },
       "UltimatePOS.Core/1.0.0": {
         "dependencies": {
-          "BCrypt.Net-Next": "4.0.3"
+          "CommunityToolkit.Mvvm": "8.2.2"
         },
         "runtime": {
           "UltimatePOS.Core.dll": {
@@ -383,6 +391,13 @@
       "sha512": "sha512-W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
       "path": "bcrypt.net-next/4.0.3",
       "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
+    },
+    "CommunityToolkit.Mvvm/8.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r0g0k9tGYdrnz8R7T3x5UiokDffeevzK/2P/9SBL6fqLgN8B157MIi/bVUWI1KAz6ZorZrK9AdABCWUeXZZsvA==",
+      "path": "communitytoolkit.mvvm/8.2.2",
+      "hashPath": "communitytoolkit.mvvm.8.2.2.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite.Core/8.0.1": {
       "type": "package",

@@ -33,6 +33,3 @@ C:/Users/fikri/Desktop/ultimateposwind/src/UltimatePOS.Data/obj/Debug/net8.0/ref
 /home/runner/workspace/src/UltimatePOS.Data/obj/Debug/net8.0/UltimatePOS.Data.pdb
 /home/runner/workspace/src/UltimatePOS.Data/obj/Debug/net8.0/UltimatePOS.Data.genruntimeconfig.cache
 /home/runner/workspace/src/UltimatePOS.Data/obj/Debug/net8.0/ref/UltimatePOS.Data.dll
-C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\UltimatePOS.Data.dll
-C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\refint\UltimatePOS.Data.dll
-C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\UltimatePOS.Data.pdb

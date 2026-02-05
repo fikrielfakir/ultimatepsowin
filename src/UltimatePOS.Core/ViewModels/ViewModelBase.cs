@@ -1,41 +1,15 @@
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace UltimatePOS.Core.ViewModels;
 
 /// <summary>
-/// Base ViewModel class implementing INotifyPropertyChanged
+/// Base ViewModel class inheriting from ObservableObject for MVVM Toolkit support
 /// </summary>
-public abstract class ViewModelBase : INotifyPropertyChanged
+public abstract partial class ViewModelBase : ObservableObject
 {
-    public event PropertyChangedEventHandler? PropertyChanged;
-
-    protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null)
-    {
-        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-    }
-
-    protected bool SetProperty<T>(ref T field, T value, [CallerMemberName] string? propertyName = null)
-    {
-        if (EqualityComparer<T>.Default.Equals(field, value))
-            return false;
-
-        field = value;
-        OnPropertyChanged(propertyName);
-        return true;
-    }
-
+    [ObservableProperty]
     private bool _isBusy;
-    public bool IsBusy
-    {
-        get => _isBusy;
-        set => SetProperty(ref _isBusy, value);
-    }
 
-    private string? _errorMessage;
-    public string? ErrorMessage
-    {
-        get => _errorMessage;
-        set => SetProperty(ref _errorMessage, value);
-    }
+    [ObservableProperty]
+    private string _title = string.Empty;
 }

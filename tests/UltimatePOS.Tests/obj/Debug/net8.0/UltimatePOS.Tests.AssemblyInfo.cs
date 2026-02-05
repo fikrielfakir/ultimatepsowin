@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UltimatePOS.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+875fe309b3844d5875491f1b4d7a6e163f1a13ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9462142445fac1212132ec261a284ab78902a02c")]
 [assembly: System.Reflection.AssemblyProductAttribute("UltimatePOS.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UltimatePOS.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
