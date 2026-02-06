@@ -30,6 +30,8 @@ public class ApplicationDbContext : DbContext
     // Inventory
     public DbSet<ProductStock> ProductStocks { get; set; } = null!;
     public DbSet<StockHistory> StockHistories { get; set; } = null!;
+    public DbSet<StockTake> StockTakes { get; set; } = null!;
+    public DbSet<StockTakeDetail> StockTakeDetails { get; set; } = null!;
 
     // Contacts
     public DbSet<Contact> Contacts { get; set; } = null!;
@@ -58,7 +60,34 @@ public class ApplicationDbContext : DbContext
         base.OnModelCreating(modelBuilder);
 
         // Configure global query filters for soft delete
-        modelBuilder.Entity<BaseEntity>().HasQueryFilter(e => !e.IsDeleted);
+        // Configure global query filters for soft delete
+        // Note: Applying via BaseEntity causes TPH mapping issues. Applying individually.
+        modelBuilder.Entity<Business>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Location>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<User>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Role>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Product>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<ProductVariant>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Brand>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Category>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<SubCategory>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Unit>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<ProductStock>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<StockHistory>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<StockTake>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<StockTakeDetail>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Contact>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<ContactGroup>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<PaymentTerm>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Sale>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<SaleItem>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<PurchaseOrder>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<PurchaseOrderItem>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Payment>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<PaymentAccount>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<TaxRate>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Expense>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<ExpenseCategory>().HasQueryFilter(e => !e.IsDeleted);
 
         // Configure indexes
         ConfigureIndexes(modelBuilder);

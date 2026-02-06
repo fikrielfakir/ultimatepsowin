@@ -1,4 +1,7 @@
 using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
+using UltimatePOS.WinUI.Views;
+using UltimatePOS.Core.ViewModels;
 
 namespace UltimatePOS.WinUI;
 
@@ -9,22 +12,23 @@ public sealed partial class MainWindow : Window
         this.InitializeComponent();
         Title = "UltimatePOS - Point of Sale System";
         
-        // Initialize simple Frame for navigation
-        var frame = new Frame();
-        Content = frame;
-
-        // Configure NavigationService with this frame
+        // Configure NavigationService with this frame (AppFrame is defined in XAML)
         var navService = App.GetService<UltimatePOS.Core.Interfaces.INavigationService>();
         if (navService is UltimatePOS.WinUI.Services.NavigationService winNavService)
         {
-            winNavService.Initialize(frame);
+            winNavService.Initialize(AppFrame);
             
             // Register views
-            winNavService.RegisterView<Views.LoginPage, Core.ViewModels.LoginViewModel>();
+            winNavService.RegisterView<LoginPage, LoginViewModel>();
+            winNavService.RegisterView<Views.Business.BusinessListPage, Core.ViewModels.Business.BusinessListViewModel>();
+            winNavService.RegisterView<Views.Business.LocationListPage, Core.ViewModels.Business.LocationListViewModel>();
+            winNavService.RegisterView<Views.DashboardPage, Core.ViewModels.DashboardViewModel>();
+            winNavService.RegisterView<Views.Product.ProductListPage, Core.ViewModels.Product.ProductListViewModel>();
+            winNavService.RegisterView<Views.Stock.StockListPage, Core.ViewModels.Stock.StockListViewModel>();
         }
 
         // Navigate to Login Page
-        frame.Navigate(typeof(Views.LoginPage));
+        AppFrame.Navigate(typeof(LoginPage));
 
         // Set window size
         var appWindow = this.AppWindow;

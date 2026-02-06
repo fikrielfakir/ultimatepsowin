@@ -9,11 +9,11 @@ namespace UltimatePOS.Services;
 /// </summary>
 public abstract class ServiceBase
 {
-    protected readonly IUnitOfWork UnitOfWork;
+    protected readonly IUnitOfWork _unitOfWork;
 
     protected ServiceBase(IUnitOfWork unitOfWork)
     {
-        UnitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
+        _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
     }
 
     /// <summary>
@@ -23,14 +23,14 @@ public abstract class ServiceBase
     {
         try
         {
-            await UnitOfWork.BeginTransactionAsync();
+            await _unitOfWork.BeginTransactionAsync();
             var result = await operation();
-            await UnitOfWork.CommitTransactionAsync();
+            await _unitOfWork.CommitTransactionAsync();
             return result;
         }
         catch
         {
-            await UnitOfWork.RollbackTransactionAsync();
+            await _unitOfWork.RollbackTransactionAsync();
             throw;
         }
     }
@@ -42,13 +42,13 @@ public abstract class ServiceBase
     {
         try
         {
-            await UnitOfWork.BeginTransactionAsync();
+            await _unitOfWork.BeginTransactionAsync();
             await operation();
-            await UnitOfWork.CommitTransactionAsync();
+            await _unitOfWork.CommitTransactionAsync();
         }
         catch
         {
-            await UnitOfWork.RollbackTransactionAsync();
+            await _unitOfWork.RollbackTransactionAsync();
             throw;
         }
     }

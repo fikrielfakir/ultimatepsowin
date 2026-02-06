@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentDialog
+    x:Class="UltimatePOS.WinUI.Dialogs.StockAdjustmentDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UltimatePOS.WinUI.Dialogs"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:UltimatePOS.Core.ViewModels.Stock"
+    mc:Ignorable="d"
+    Title="Adjust Stock"
+    PrimaryButtonText="Save"
+    PrimaryButtonCommand="{x:Bind ViewModel.SaveCommand}"
+    CloseButtonText="Cancel"
+    DefaultButton="Primary"
+    Style="{StaticResource DefaultContentDialogStyle}">
+
+    <StackPanel Spacing="16" MinWidth="350">
+        <!-- Product Info -->
+        <TextBlock Style="{StaticResource SubtitleTextBlockStyle}">
+            <Run Text="{x:Bind ViewModel.SelectedProduct.Name, Mode=OneWay}"/>
+        </TextBlock>
+        
+        <TextBlock Text="{x:Bind ViewModel.SelectedProduct.SKU, Mode=OneWay}" 
+                   Style="{StaticResource CaptionTextBlockStyle}" 
+                   Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+
+        <infoBar Severity="Informational" IsOpen="True" IsClosable="False"
+                 Title="Current Stock"
+                 Message="{x:Bind ViewModel.SelectedStock.Quantity, Mode=OneWay, FallbackValue='0'}"/>
+
+        <!-- Adjustment Type -->
+        <ComboBox Header="Adjustment Type" 
+                  ItemsSource="{x:Bind AvailableTypes}"
+                  SelectedItem="{x:Bind ViewModel.AdjustmentType, Mode=TwoWay}"
+                  HorizontalAlignment="Stretch"/>
+
+        <!-- Quantity -->
+        <NumberBox Header="Quantity" 
+                   Value="{x:Bind ViewModel.Quantity, Mode=TwoWay}"
+                   SpinButtonPlacementMode="Inline"
+                   Minimum="0"
+                   PlaceholderText="Enter quantity"/>
+
+        <!-- Reason -->
+        <TextBox Header="Reason" 
+                 Text="{x:Bind ViewModel.Reason, Mode=TwoWay}"
+                 PlaceholderText="e.g., Damaged, Found, Correction"/>
+
+        <!-- Reference -->
+        <TextBox Header="Reference (Optional)" 
+                 Text="{x:Bind ViewModel.Reference, Mode=TwoWay}"
+                 PlaceholderText="e.g., Audit #123"/>
+    </StackPanel>
+</ContentDialog>

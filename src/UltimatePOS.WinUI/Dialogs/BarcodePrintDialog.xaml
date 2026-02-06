@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentDialog
+    x:Class="UltimatePOS.WinUI.Dialogs.BarcodePrintDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:helpers="using:UltimatePOS.WinUI.Helpers"
+    mc:Ignorable="d"
+    Title="Print Barcode Labels"
+    PrimaryButtonText="Print"
+    CloseButtonText="Cancel"
+    DefaultButton="Primary"
+    RequestedTheme="Light"
+    Style="{StaticResource DefaultContentDialogStyle}">
+
+    <ContentDialog.Resources>
+        <helpers:ByteToImageConverter x:Key="ByteToImageConverter"/>
+    </ContentDialog.Resources>
+
+    <Grid MinWidth="600" MinHeight="500">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Sidebar Options -->
+        <StackPanel Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Spacing="16" Padding="0,0,16,0" BorderBrush="{ThemeResource SurfaceStrokeColorDefaultBrush}" BorderThickness="0,0,1,0">
+            <StackPanel Spacing="8">
+                <TextBlock Text="Label Template" Style="{StaticResource BodyStrongTextBlockStyle}"/>
+                <ComboBox 
+                    ItemsSource="{x:Bind ViewModel.Templates}" 
+                    SelectedItem="{x:Bind ViewModel.SelectedTemplate, Mode=TwoWay}"
+                    DisplayMemberPath="Name"
+                    HorizontalAlignment="Stretch"/>
+            </StackPanel>
+
+            <StackPanel Spacing="8">
+                <TextBlock Text="Products Selected" Style="{StaticResource BodyStrongTextBlockStyle}"/>
+                <TextBlock Text="{x:Bind ViewModel.ProductCount}" Style="{StaticResource BodyTextBlockStyle}"/>
+            </StackPanel>
+
+            <InfoBar 
+                Severity="Informational" 
+                Title="Printing Tip" 
+                Message="Ensure 'Actual Size' or '100% Scale' is selected in your printer settings for correct alignment." 
+                IsOpen="True"
+                IsClosable="False"/>
+        </StackPanel>
+
+        <!-- Preview Area -->
+        <Grid Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Padding="16,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Preview" Style="{StaticResource SubtitleTextBlockStyle}" Margin="0,0,0,12"/>
+
+            <Border Grid.Row="1" 
+                    Background="{ThemeResource LayerFillColorDefaultBrush}" 
+                    BorderBrush="{ThemeResource SurfaceStrokeColorDefaultBrush}" 
+                    BorderThickness="1" 
+                    CornerRadius="4">
+                <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                    <Grid>
+                        <!-- Loading Indicator -->
+                        <ProgressRing IsActive="{x:Bind ViewModel.IsLoading, Mode=OneWay}" 
+                                      Width="40" Height="40" 
+                                      HorizontalAlignment="Center" VerticalAlignment="Center"
+                                      Canvas.ZIndex="10"/>
+
+                        <!-- Preview Image -->
+                        <Image Source="{x:Bind ViewModel.PreviewImage, Mode=OneWay, Converter={StaticResource ByteToImageConverter}}" 
+                               Stretch="None" 
+                               HorizontalAlignment="Center" 
+                               VerticalAlignment="Top"
+                               Margin="16"/>
+                        
+                        <!-- Empty State -->
+                        <TextBlock Text="No Preview Available" 
+                                   HorizontalAlignment="Center" 
+                                   VerticalAlignment="Center" 
+                                   Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+                                   Visibility="{x:Bind ViewModel.PreviewImage, Mode=OneWay, Converter={StaticResource NullToVisibilityConverter}}"/>
+                    </Grid>
+                </ScrollViewer>
+            </Border>
+        </Grid>
+    </Grid>
+</ContentDialog>

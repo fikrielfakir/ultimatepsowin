@@ -54,6 +54,8 @@ public static class ServiceCollectionExtensions
     {
         // Infrastructure services
         services.AddSingleton<IPasswordHasher, BCryptPasswordHasher>();
+        services.AddSingleton<ITokenService, TokenService>();
+        services.AddSingleton<ISecureStorageService, SecureStorageService>();
         services.AddScoped<IAuthenticationService, AuthenticationService>();
 
         services.AddSingleton<INavigationService, NavigationService>();
@@ -68,7 +70,17 @@ public static class ServiceCollectionExtensions
         var configPath = Path.Combine(appDataPath, "UltimatePOS", "user-settings.json");
         services.AddSingleton<IConfigurationService>(new ConfigurationService(configPath));
 
-        // Business services will be added here as we create them
+        // Business services
+        services.AddSingleton<ISessionService, SessionService>();
+        services.AddScoped<IBusinessService, BusinessService>();
+        services.AddScoped<ILocationService, LocationService>();
+        services.AddScoped<IProductService, ProductService>();
+        services.AddSingleton<IBarcodeService, BarcodeService>();
+        services.AddScoped<IStockService, StockService>();
+
+        // Session monitoring
+        services.AddHostedService<SessionMonitor>();
+
         // Example:
         // services.AddScoped<IProductService, ProductService>();
         // services.AddScoped<ISaleService, SaleService>();
@@ -83,6 +95,15 @@ public static class ServiceCollectionExtensions
     {
         // ViewModels will be registered here as we create them
         services.AddTransient<UltimatePOS.Core.ViewModels.LoginViewModel>();
+        services.AddTransient<UltimatePOS.Core.ViewModels.Business.BusinessListViewModel>();
+        services.AddTransient<UltimatePOS.Core.ViewModels.Business.LocationListViewModel>();
+        services.AddTransient<UltimatePOS.Core.ViewModels.DashboardViewModel>();
+        services.AddTransient<UltimatePOS.Core.ViewModels.Product.ProductListViewModel>();
+        services.AddTransient<UltimatePOS.Core.ViewModels.Product.ProductFormViewModel>();
+        services.AddTransient<UltimatePOS.Core.ViewModels.Product.BarcodePrintViewModel>();
+        services.AddTransient<UltimatePOS.Core.ViewModels.Stock.StockListViewModel>();
+        services.AddTransient<UltimatePOS.Core.ViewModels.Stock.StockAdjustmentViewModel>();
+        services.AddTransient<UltimatePOS.Core.ViewModels.Stock.StockTransferViewModel>();
         
         return services;
     }

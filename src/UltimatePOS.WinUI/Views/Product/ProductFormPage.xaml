@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="UltimatePOS.WinUI.Views.Product.ProductFormPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:entities="using:UltimatePOS.Core.Entities"
+    mc:Ignorable="d">
+
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Padding="24" MaxWidth="800" Spacing="24">
+                <!-- Header -->
+                <StackPanel Spacing="8">
+                    <TextBlock Text="{x:Bind ViewModel.PageTitle, Mode=OneWay}" Style="{StaticResource TitleTextBlockStyle}"/>
+                    <TextBlock Text="Fill in the product details below" Style="{StaticResource BodyTextBlockStyle}" Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+                </StackPanel>
+
+                <!-- Product Type Selection -->
+                <StackPanel Spacing="12">
+                    <TextBlock Text="Product Type" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                    <RadioButtons SelectedIndex="{x:Bind ViewModel.ProductType, Mode=TwoWay, Converter={StaticResource EnumToIntConverter}}">
+                        <RadioButton Content="Single Product" Tag="0"/>
+                        <RadioButton Content="Variable Product (with variants)" Tag="1"/>
+                        <RadioButton Content="Lot/Serial Product" Tag="2"/>
+                    </RadioButtons>
+                </StackPanel>
+
+                <!-- Basic Information -->
+                <StackPanel Spacing="16" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" Padding="16" CornerRadius="8">
+                    <TextBlock Text="Basic Information" Style="{StaticResource SubtitleTextBlockStyle}"/>
+
+                    <!-- Name -->
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Product Name *" Style="{StaticResource BodyStrongTextBlockStyle}"/>
+                        <TextBox 
+                            Text="{x:Bind ViewModel.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                            PlaceholderText="Enter product name"
+                            MaxLength="200"/>
+                        <TextBlock 
+                            Text="{x:Bind ViewModel.NameError, Mode=OneWay}" 
+                            Foreground="Red" 
+                            Style="{StaticResource CaptionTextBlockStyle}"
+                            Visibility="{x:Bind ViewModel.NameError, Mode=OneWay, Converter={StaticResource NullToCollapsedConverter}}"/>
+                    </StackPanel>
+
+                    <!-- SKU and Barcode -->
+                    <Grid ColumnSpacing="12">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="0" Spacing="4">
+                            <TextBlock Text="SKU" Style="{StaticResource BodyStrongTextBlockStyle}"/>
+                            <TextBox 
+                                Text="{x:Bind ViewModel.SKU, Mode=TwoWay}"
+                                PlaceholderText="Product SKU"
+                                MaxLength="100"/>
+                            <TextBlock 
+                                Text="{x:Bind ViewModel.SkuError, Mode=OneWay}" 
+                                Foreground="Red" 
+                                Style="{StaticResource CaptionTextBlockStyle}"
+                                Visibility="{x:Bind ViewModel.SkuError, Mode=OneWay, Converter={StaticResource NullToCollapsedConverter}}"/>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1" Spacing="4">
+                            <TextBlock Text="Barcode" Style="{StaticResource BodyStrongTextBlockStyle}"/>
+                            <TextBox 
+                                Text="{x:Bind ViewModel.Barcode, Mode=TwoWay}"
+                                PlaceholderText="Barcode number"
+                                MaxLength="200"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <!-- Description -->
+                    <StackPanel Spacing="4">
+                        <TextBlock Text="Description" Style="{StaticResource BodyStrongTextBlockStyle}"/>
+                        <TextBox 
+                            Text="{x:Bind ViewModel.Description, Mode=TwoWay}"
+                            PlaceholderText="Product description"
+                            AcceptsReturn="True"
+                            TextWrapping="Wrap"
+                            Height="80"
+                            MaxLength="1000"/>
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- Pricing -->
+                <StackPanel Spacing="16" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" Padding="16" CornerRadius="8">
+                    <TextBlock Text="Pricing" Style="{StaticResource SubtitleTextBlockStyle}"/>
+
+                    <Grid ColumnSpacing="12">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Cost Price -->
+                        <StackPanel Grid.Column="0" Spacing="4">
+                            <TextBlock Text="Cost Price" Style="{StaticResource BodyStrongTextBlockStyle}"/>
+                            <NumberBox 
+                                Value="{x:Bind ViewModel.CostPrice, Mode=TwoWay}"
+                                PlaceholderText="0.00"
+                                SpinButtonPlacementMode="Compact"
+                                Minimum="0"
+                                SmallChange="0.01"/>
+                            <TextBlock 
+                                Text="{x:Bind ViewModel.CostPriceError, Mode=OneWay}" 
+                                Foreground="Red" 
+                                Style="{StaticResource CaptionTextBlockStyle}"
+                                Visibility="{x:Bind ViewModel.CostPriceError, Mode=OneWay, Converter={StaticResource NullToCollapsedConverter}}"/>
+                        </StackPanel>
+
+                        <!-- Selling Price -->
+                        <StackPanel Grid.Column="1" Spacing="4">
+                            <TextBlock Text="Selling Price *" Style="{StaticResource BodyStrongTextBlockStyle}"/>
+                            <NumberBox 
+                                Value="{x:Bind ViewModel.SellingPrice, Mode=TwoWay}"
+                                PlaceholderText="0.00"
+                                SpinButtonPlacementMode="Compact"
+                                Minimum="0"
+                                SmallChange="0.01"/>
+                            <TextBlock 
+                                Text="{x:Bind ViewModel.SellingPriceError, Mode=OneWay}" 
+                                Foreground="Red" 
+                                Style="{StaticResource CaptionTextBlockStyle}"
+                                Visibility="{x:Bind ViewModel.SellingPriceError, Mode=OneWay, Converter={StaticResource NullToCollapsedConverter}}"/>
+                        </StackPanel>
+
+                        <!-- Profit Margin (Read-only, Auto-calculated) -->
+                        <StackPanel Grid.Column="2" Spacing="4">
+                            <TextBlock Text="Profit Margin %" Style="{StaticResource BodyStrongTextBlockStyle}"/>
+                            <NumberBox 
+                                Value="{x:Bind ViewModel.ProfitMargin, Mode=OneWay}"
+                                IsReadOnly="True"
+                                PlaceholderText="Auto"/>
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+
+                <!-- Stock Settings -->
+                <StackPanel Spacing="16" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" Padding="16" CornerRadius="8">
+                    <TextBlock Text="Stock Settings" Style="{StaticResource SubtitleTextBlockStyle}"/>
+
+                    <Grid ColumnSpacing="12">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Alert Quantity -->
+                        <StackPanel Grid.Column="0" Spacing="4">
+                            <TextBlock Text="Alert Quantity" Style="{StaticResource BodyStrongTextBlockStyle}"/>
+                            <NumberBox 
+                                Value="{x:Bind ViewModel.AlertQuantity, Mode=TwoWay}"
+                                PlaceholderText="0"
+                                SpinButtonPlacementMode="Compact"
+                                Minimum="0"/>
+                            <TextBlock Text="Low stock alert threshold" Style="{StaticResource CaptionTextBlockStyle}" Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+                        </StackPanel>
+
+                        <!-- Has Expiry Date -->
+                        <StackPanel Grid.Column="1" Spacing="4" VerticalAlignment="Center">
+                            <CheckBox 
+                                IsChecked="{x:Bind ViewModel.HasExpiryDate, Mode=TwoWay}"
+                                Content="Track Expiry Dates"/>
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+
+                <!-- Image Upload Section -->
+                <StackPanel Spacing="16" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" Padding="16" CornerRadius="8">
+                    <TextBlock Text="Product Image" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                    
+                    <!-- Image Preview or Upload Area -->
+                    <Border 
+                        Height="200" 
+                        BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" 
+                        BorderThickness="2" 
+                        CornerRadius="8"
+                        Background="{ThemeResource LayerFillColorDefaultBrush}">
+                        
+                        <!-- Upload Prompt (when no image) -->
+                        <StackPanel 
+                            HorizontalAlignment="Center" 
+                            VerticalAlignment="Center" 
+                            Spacing="12"
+                            Visibility="{x:Bind ViewModel.HasImage, Mode=OneWay, Converter={StaticResource InverseBoolToVisibilityConverter}}">
+                            <FontIcon Glyph="&#xEB9F;" FontSize="48" Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+                            <Button Content="Select Image" Click="SelectImage_Click"/>
+                            <TextBlock Text="JPG, PNG, BMP supported" Style="{StaticResource CaptionTextBlockStyle}" Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+                        </StackPanel>
+
+                        <!-- Image Preview (when image selected) -->
+                        <Grid Visibility="{x:Bind ViewModel.HasImage, Mode=OneWay}">
+                            <Image Source="{x:Bind ViewModel.ImagePath, Mode=OneWay}" Stretch="Uniform"/>
+                            <Button 
+                                Content="Clear" 
+                                Command="{x:Bind ViewModel.ClearImageCommand}"
+                                HorizontalAlignment="Right" 
+                                VerticalAlignment="Top" 
+                                Margin="8"/>
+                        </Grid>
+                    </Border>
+                </StackPanel>
+
+                <!-- Action Buttons -->
+                <Grid ColumnSpacing="12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <CheckBox 
+                        Grid.Column="0"
+                        IsChecked="{x:Bind ViewModel.IsActive, Mode=TwoWay}"
+                        Content="Active Product"
+                        VerticalAlignment="Center"/>
+
+                    <Button 
+                        Grid.Column="1"
+                        Content="Cancel" 
+                        Command="{x:Bind ViewModel.CancelCommand}"
+                        MinWidth="100"/>
+
+                    <Button 
+                        Grid.Column="2"
+                        Content="Save Product" 
+                        Style="{StaticResource AccentButtonStyle}"
+                        Command="{x:Bind ViewModel.SaveCommand}"
+                        IsEnabled="{x:Bind ViewModel.IsSaving, Mode=OneWay, Converter={StaticResource InverseBoolConverter}}"
+                        MinWidth="120">
+                        <Button.KeyboardAccelerators>
+                            <KeyboardAccelerator Key="S" Modifiers="Control"/>
+                        </Button.KeyboardAccelerators>
+                    </Button>
+                </Grid>
+
+                <!-- Loading Indicator -->
+                <ProgressBar IsIndeterminate="True" Visibility="{x:Bind ViewModel.IsSaving, Mode=OneWay}"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

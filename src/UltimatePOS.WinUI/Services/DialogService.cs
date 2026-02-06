@@ -2,6 +2,8 @@ using Microsoft.UI.Xaml.Controls;
 using System;
 using System.Threading.Tasks;
 using UltimatePOS.Core.Interfaces;
+using UltimatePOS.WinUI.Dialogs;
+using UltimatePOS.Core.Entities;
 
 namespace UltimatePOS.WinUI.Services;
 
@@ -20,6 +22,7 @@ public class DialogService : IDialogService
     public async Task ShowMessageAsync(string title, string message)
     {
         var dialog = _dialogFactory();
+        dialog.XamlRoot = App.CurrentWindow?.Content?.XamlRoot;
         dialog.Title = title;
         dialog.Content = message;
         dialog.CloseButtonText = "OK";
@@ -29,6 +32,7 @@ public class DialogService : IDialogService
     public async Task ShowWarningAsync(string title, string message)
     {
         var dialog = _dialogFactory();
+        dialog.XamlRoot = App.CurrentWindow?.Content?.XamlRoot;
         dialog.Title = "⚠️ " + title;
         dialog.Content = message;
         dialog.CloseButtonText = "OK";
@@ -38,6 +42,7 @@ public class DialogService : IDialogService
     public async Task ShowErrorAsync(string title, string message)
     {
         var dialog = _dialogFactory();
+        dialog.XamlRoot = App.CurrentWindow?.Content?.XamlRoot;
         dialog.Title = "❌ " + title;
         dialog.Content = message;
         dialog.CloseButtonText = "OK";
@@ -52,6 +57,7 @@ public class DialogService : IDialogService
     public async Task<bool> ShowConfirmationAsync(string title, string message, string confirmText, string cancelText)
     {
         var dialog = _dialogFactory();
+        dialog.XamlRoot = App.CurrentWindow?.Content?.XamlRoot;
         dialog.Title = title;
         dialog.Content = message;
         dialog.PrimaryButtonText = confirmText;
@@ -70,6 +76,7 @@ public class DialogService : IDialogService
         };
 
         var dialog = _dialogFactory();
+        dialog.XamlRoot = App.CurrentWindow?.Content?.XamlRoot;
         dialog.Title = title;
         dialog.Content = textBox;
         dialog.PrimaryButtonText = "OK";
@@ -81,13 +88,52 @@ public class DialogService : IDialogService
 
     public async Task<TResult?> ShowDialogAsync<TViewModel, TResult>(object? parameter = null) where TViewModel : class
     {
-        // This would require a more complex implementation with custom dialogs
-        // For now, we'll throw NotImplementedException
-        // In a full implementation, you would:
-        // 1. Resolve TViewModel from DI
-        // 2. Find the corresponding View
-        // 3. Create a ContentDialog with that View as content
-        // 4. Show the dialog and return the result
         throw new NotImplementedException("Custom dialog with ViewModel not yet implemented");
+    }
+
+    public async Task ShowBarcodePrintDialogAsync(int[] productIds)
+    {
+        var dialog = new BarcodePrintDialog();
+        dialog.XamlRoot = App.CurrentWindow?.Content?.XamlRoot;
+        await dialog.ViewModel.LoadProductsAsync(productIds);
+        await dialog.ShowAsync();
+    }
+
+    public async Task ShowStockAdjustmentDialogAsync(ProductStock? stock)
+    {
+        var dialog = new StockAdjustmentDialog();
+        dialog.XamlRoot = App.CurrentWindow?.Content?.XamlRoot;
+        await dialog.ViewModel.InitializeAsync(stock);
+        await dialog.ShowAsync();
+    }
+
+    public async Task ShowStockTransferDialogAsync(int? productId = null)
+    {
+        var dialog = new StockTransferDialog();
+        dialog.XamlRoot = App.CurrentWindow?.Content?.XamlRoot;
+        await dialog.ViewModel.InitializeAsync();
+        
+        if (productId.HasValue)
+        {
+            await dialog.ViewModel.SetProductAsync(productId.Value);
+        }
+        
+        await dialog.ShowAsync();
+    }
+
+    public async Task ShowStockHistoryDialogAsync(int productId)
+    {
+        var dialog = new StockHistoryDialog();
+        dialog.XamlRoot = App.CurrentWindow?.Content?.XamlRoot;
+        await dialog.ViewModel.InitializeAsync(productId);
+        await dialog.ShowAsync();
+    }
+
+    public async Task ShowReorderLevelDialogAsync(int? locationId = null)
+    {
+        var dialog = new ReorderLevelDialog();
+        dialog.XamlRoot = App.CurrentWindow?.Content?.XamlRoot;
+        await dialog.ViewModel.InitializeAsync(locationId);
+        await dialog.ShowAsync();
     }
 }

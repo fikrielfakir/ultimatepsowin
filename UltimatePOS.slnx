@@ -2,6 +2,7 @@
   <Folder Name="/src/">
     <Project Path="src/UltimatePOS.Core/UltimatePOS.Core.csproj" />
     <Project Path="src/UltimatePOS.Data/UltimatePOS.Data.csproj" />
+    <Project Path="src/UltimatePOS.Migrator/UltimatePOS.Migrator.csproj" />
     <Project Path="src/UltimatePOS.Services/UltimatePOS.Services.csproj" />
     <Project Path="src/UltimatePOS.WinUI/UltimatePOS.WinUI.csproj">
       <Platform Project="x86" />

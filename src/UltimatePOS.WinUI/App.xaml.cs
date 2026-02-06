@@ -15,6 +15,9 @@ public partial class App : Application
 {
     private IHost? _host;
     private Window? _window;
+    
+    public static Window? CurrentWindow => (App.Current as App)?._window;
+
     private AppSettings? _appSettings;
 
     public App()

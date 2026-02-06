@@ -1,0 +1,16 @@
+using Microsoft.UI.Xaml.Controls;
+using UltimatePOS.Core.ViewModels.Stock;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace UltimatePOS.WinUI.Dialogs;
+
+public sealed partial class StockTransferDialog : ContentDialog
+{
+    public StockTransferViewModel ViewModel { get; }
+
+    public StockTransferDialog()
+    {
+        this.InitializeComponent();
+        ViewModel = ((App)Microsoft.UI.Xaml.Application.Current).Services.GetService<StockTransferViewModel>();
+    }
+}

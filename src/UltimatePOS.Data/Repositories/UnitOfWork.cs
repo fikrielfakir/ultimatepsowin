@@ -27,6 +27,8 @@ public class UnitOfWork : IUnitOfWork
     private IRepository<Unit>? _units;
     private IRepository<ProductStock>? _productStocks;
     private IRepository<StockHistory>? _stockHistories;
+    private IRepository<StockTake>? _stockTakes;
+    private IRepository<StockTakeDetail>? _stockTakeDetails;
     private IRepository<Contact>? _contacts;
     private IRepository<ContactGroup>? _contactGroups;
     private IRepository<PaymentTerm>? _paymentTerms;
@@ -80,6 +82,12 @@ public class UnitOfWork : IUnitOfWork
 
     public IRepository<StockHistory> StockHistories => 
         _stockHistories ??= new Repository<StockHistory>(_context);
+
+    public IRepository<StockTake> StockTakes => 
+        _stockTakes ??= new Repository<StockTake>(_context);
+
+    public IRepository<StockTakeDetail> StockTakeDetails => 
+        _stockTakeDetails ??= new Repository<StockTakeDetail>(_context);
 
     public IRepository<Contact> Contacts => 
         _contacts ??= new Repository<Contact>(_context);

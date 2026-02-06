@@ -21,6 +21,8 @@ public interface IUnitOfWork : IDisposable
     IRepository<Unit> Units { get; }
     IRepository<ProductStock> ProductStocks { get; }
     IRepository<StockHistory> StockHistories { get; }
+    IRepository<StockTake> StockTakes { get; }
+    IRepository<StockTakeDetail> StockTakeDetails { get; }
     IRepository<Contact> Contacts { get; }
     IRepository<ContactGroup> ContactGroups { get; }
     IRepository<PaymentTerm> PaymentTerms { get; }

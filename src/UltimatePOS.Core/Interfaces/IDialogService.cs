@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using UltimatePOS.Core.Entities;
 
 namespace UltimatePOS.Core.Interfaces;
 
@@ -41,4 +42,29 @@ public interface IDialogService
     /// Show a custom dialog with a ViewModel
     /// </summary>
     Task<TResult?> ShowDialogAsync<TViewModel, TResult>(object? parameter = null) where TViewModel : class;
+
+    /// <summary>
+    /// Show the barcode print dialog
+    /// </summary>
+    Task ShowBarcodePrintDialogAsync(int[] productIds);
+
+    /// <summary>
+    /// Show the stock adjustment dialog
+    /// </summary>
+    Task ShowStockAdjustmentDialogAsync(ProductStock? stock);
+
+    /// <summary>
+    /// Show the stock transfer dialog
+    /// </summary>
+    Task ShowStockTransferDialogAsync(int? productId = null);
+
+    /// <summary>
+    /// Show the stock history dialog
+    /// </summary>
+    Task ShowStockHistoryDialogAsync(int productId);
+
+    /// <summary>
+    /// Show the reorder level management dialog
+    /// </summary>
+    Task ShowReorderLevelDialogAsync(int? locationId = null);
 }

@@ -1,15 +1,3 @@
-C:/Users/fikri/Desktop/ultimateposwind/src/UltimatePOS.Core/bin/Debug/net8.0/UltimatePOS.Core.deps.json
-C:/Users/fikri/Desktop/ultimateposwind/src/UltimatePOS.Core/bin/Debug/net8.0/UltimatePOS.Core.dll
-C:/Users/fikri/Desktop/ultimateposwind/src/UltimatePOS.Core/bin/Debug/net8.0/UltimatePOS.Core.pdb
-C:/Users/fikri/Desktop/ultimateposwind/src/UltimatePOS.Core/obj/Debug/net8.0/UltimatePOS.Core.csproj.AssemblyReference.cache
-C:/Users/fikri/Desktop/ultimateposwind/src/UltimatePOS.Core/obj/Debug/net8.0/UltimatePOS.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/fikri/Desktop/ultimateposwind/src/UltimatePOS.Core/obj/Debug/net8.0/UltimatePOS.Core.AssemblyInfoInputs.cache
-C:/Users/fikri/Desktop/ultimateposwind/src/UltimatePOS.Core/obj/Debug/net8.0/UltimatePOS.Core.AssemblyInfo.cs
-C:/Users/fikri/Desktop/ultimateposwind/src/UltimatePOS.Core/obj/Debug/net8.0/UltimatePOS.Core.csproj.CoreCompileInputs.cache
-C:/Users/fikri/Desktop/ultimateposwind/src/UltimatePOS.Core/obj/Debug/net8.0/UltimatePOS.Core.dll
-C:/Users/fikri/Desktop/ultimateposwind/src/UltimatePOS.Core/obj/Debug/net8.0/refint/UltimatePOS.Core.dll
-C:/Users/fikri/Desktop/ultimateposwind/src/UltimatePOS.Core/obj/Debug/net8.0/UltimatePOS.Core.pdb
-C:/Users/fikri/Desktop/ultimateposwind/src/UltimatePOS.Core/obj/Debug/net8.0/ref/UltimatePOS.Core.dll
 /home/runner/workspace/src/UltimatePOS.Core/bin/Debug/net8.0/UltimatePOS.Core.deps.json
 /home/runner/workspace/src/UltimatePOS.Core/bin/Debug/net8.0/UltimatePOS.Core.dll
 /home/runner/workspace/src/UltimatePOS.Core/bin/Debug/net8.0/UltimatePOS.Core.pdb
@@ -23,6 +11,9 @@ C:/Users/fikri/Desktop/ultimateposwind/src/UltimatePOS.Core/obj/Debug/net8.0/ref
 /home/runner/workspace/src/UltimatePOS.Core/obj/Debug/net8.0/refint/UltimatePOS.Core.dll
 /home/runner/workspace/src/UltimatePOS.Core/obj/Debug/net8.0/UltimatePOS.Core.pdb
 /home/runner/workspace/src/UltimatePOS.Core/obj/Debug/net8.0/ref/UltimatePOS.Core.dll
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\bin\Debug\net8.0\UltimatePOS.Core.deps.json
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\bin\Debug\net8.0\UltimatePOS.Core.dll
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\bin\Debug\net8.0\UltimatePOS.Core.pdb
 C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\obj\Debug\net8.0\UltimatePOS.Core.csproj.AssemblyReference.cache
 C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\obj\Debug\net8.0\UltimatePOS.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\obj\Debug\net8.0\UltimatePOS.Core.AssemblyInfoInputs.cache
@@ -32,3 +23,4 @@ C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\obj\Debug\net8.0\Ult
 C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\obj\Debug\net8.0\UltimatePOS.Core.dll
 C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\obj\Debug\net8.0\refint\UltimatePOS.Core.dll
 C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\obj\Debug\net8.0\UltimatePOS.Core.pdb
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\obj\Debug\net8.0\ref\UltimatePOS.Core.dll
