@@ -1,0 +1,58 @@
+dotnet build
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\UltimatePOS.Core.csproj(9,5): error MSB4025: The project file could not be loaded. The 'Project' start tag on line 1 position 2 does not match the end tag of 'ItemGroup'. Line 9, position 5.
+
+Restore failed with 1 error(s) in 0.3s
+PS C:\Users\fikri\Desktop\ultimateposwind> cd 'c:\Users\fikri\Desktop\ultimateposwind'
+PS C:\Users\fikri\Desktop\ultimateposwind> dotnet build
+Restore complete (1.5s)
+  UltimatePOS.WinUI net8.0-windows10.0.19041.0 win-x64 failed with 1 error(s) (0.0s)
+    C:\Program Files\dotnet\sdk\10.0.102\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.RuntimeIdentifierInference.targets(318,5): error NETSDK1032: The RuntimeIdentifier platform 'win-x64' and the PlatformTarget 'x86' must be compatible.
+  UltimatePOS.Tests net8.0 succeeded (0.4s) → tests\UltimatePOS.Tests\bin\Debug\net8.0\UltimatePOS.Tests.dll
+  UltimatePOS.Core net8.0 failed with 12 error(s) and 1 warning(s) (1.0s)
+    C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\ViewModels\LoginViewModel.cs(15,20): error MVVMTK0019: The field UltimatePOS.Core.ViewModels.LoginViewModel._username cannot be used to generate an observable property, as its containing type doesn't inherit from ObservableObject, nor does it use [ObservableObject] or [INotifyPropertyChanged] (https://aka.ms/mvvmtoolkit/errors/mvvmtk0019)        
+    C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\ViewModels\LoginViewModel.cs(18,20): error MVVMTK0019: The field UltimatePOS.Core.ViewModels.LoginViewModel._password cannot be used to generate an observable property, as its containing type doesn't inherit from ObservableObject, nor does it use [ObservableObject] or [INotifyPropertyChanged] (https://aka.ms/mvvmtoolkit/errors/mvvmtk0019)        
+    C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\ViewModels\LoginViewModel.cs(21,20): error MVVMTK0019: The field UltimatePOS.Core.ViewModels.LoginViewModel._errorMessage cannot be used to generate an observable property, as its containing type doesn't inherit from ObservableObject, nor does it use [ObservableObject] or [INotifyPropertyChanged] (https://aka.ms/mvvmtoolkit/errors/mvvmtk0019)    
+    C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\ViewModels\LoginViewModel.cs(24,18): error MVVMTK0019: The field UltimatePOS.Core.ViewModels.LoginViewModel._hasError cannot be used to generate an observable property, as its containing type doesn't inherit from ObservableObject, nor does it use [ObservableObject] or [INotifyPropertyChanged] (https://aka.ms/mvvmtoolkit/errors/mvvmtk0019)        
+    C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\ViewModels\LoginViewModel.cs(35,9): error CS0103: The name 'Title' does not exist in the current context
+    C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\ViewModels\LoginViewModel.cs(41,39): error CS0103: The name 'Username' does not exist in the current context
+    C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\ViewModels\LoginViewModel.cs(41,78): error CS0103: The name 'Password' does not exist in the current context
+    C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\ViewModels\LoginViewModel.cs(44,13): error CS0103: The name 'HasError' does not exist in the current context
+    C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\ViewModels\LoginViewModel.cs(52,13): error CS0103: The name 'HasError' does not exist in the current context
+    C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\ViewModels\LoginViewModel.cs(54,67): error CS0103: The name 'Username' does not exist in the current context
+    C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\ViewModels\LoginViewModel.cs(54,77): error CS0103: The name 'Password' does not exist in the current context
+    C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\ViewModels\LoginViewModel.cs(65,17): error CS0103: The name 'HasError' does not exist in the current context
+    C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\ViewModels\LoginViewModel.cs(24,18): warning CS0169: The field 'LoginViewModel._hasError' is never used
+                                                                                                       
+Build failed with 13 error(s) and 1 warning(s) in 2.6s
+PS C:\Users\fikri\Desktop\ultimateposwind> cd 'c:\Users\fikri\Desktop\ultimateposwind'
+PS C:\Users\fikri\Desktop\ultimateposwind> dotnet ef migrations add SeedAdminUser --project src\UltimatePOS.Data --startup-project src\UltimatePOS.WinUI --context ApplicationDbContext
+Build started...
+Build failed. Use dotnet build to see the errors.
+PS C:\Users\fikri\Desktop\ultimateposwind> cd 'c:\Users\fikri\Desktop\ultimateposwind'
+PS C:\Users\fikri\Desktop\ultimateposwind> dotnet build /p:Platform=x64
+    C:\Users\fikri\Desktop\ultimateposwind\UltimatePOS.slnx.metaproj : error MSB4126: The specified solution configuration "Debug|x64" is invalid. Please specify a valid solution configuration using the Configuration and Platform properties (e.g. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform="Any CPU") or leave those properties blank to use the default solution configuration.
+uration.
+
+Restore failed with 1 error(s) in 0.1s
+PS C:\Users\fikri\Desktop\ultimateposwind> cd 'c:\Users\fikri\Desktop\ultimateposwind'   
+PS C:\Users\fikri\Desktop\ultimateposwind> dotnet ef migrations add SeedAdminUser --project src\UltimatePOS.Data --startup-project src\UltimatePOS.WinUI --context ApplicationDbContext -- /p:Platform=x64
+Build started...
+Build failed. Use dotnet build to see the errors.
+PS C:\Users\fikri\Desktop\ultimateposwind> cd 'c:\Users\fikri\Desktop\ultimateposwind'
+PS C:\Users\fikri\Desktop\ultimateposwind> dotnet build -r win-x64
+Restore complete (1.6s)
+  UltimatePOS.slnx win-x64 failed with 1 error(s) (0.0s)
+    C:\Program Files\dotnet\sdk\10.0.102\Current\SolutionFile\ImportAfter\Microsoft.NET.Sdk.Solution.targets(27,5): error NETSDK1134: Building a solution with a specific RuntimeIdentifier is not supported. If you would like to publish for a single RID, specify the RID at the individual project level instead.
+
+Build failed with 1 error(s) in 1.8s
+PS C:\Users\fikri\Desktop\ultimateposwind> cd 'c:\Users\fikri\Desktop\ultimateposwind'
+PS C:\Users\fikri\Desktop\ultimateposwind> dotnet ef migrations add SeedAdminUser --project src\UltimatePOS.Data --startup-project src\UltimatePOS.WinUI --context ApplicationDbContext -- --runtime win-x64
+Build started...
+Build failed. Use dotnet build to see the errors.
+PS C:\Users\fikri\Desktop\ultimateposwind> cd 'c:\Users\fikri\Desktop\ultimateposwind'
+PS C:\Users\fikri\Desktop\ultimateposwind> dotnet build src\UltimatePOS.WinUI\UltimatePOS.WinUI.csproj -r win-x64
+Restore complete (2.5s)
+  UltimatePOS.WinUI net8.0-windows10.0.19041.0 win-x64 failed with 1 error(s) (0.0s)     
+    C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\buildTransitive\Microsoft.WindowsAppSDK.SelfContained.targets(36,9): error The platform 'AnyCPU' is not supported for Self Contained mode.
+                                                                                         
+Build failed with 1 error(s) in 2.8s
