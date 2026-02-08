@@ -12,7 +12,7 @@ public sealed partial class StockListPage : Page
     public StockListPage()
     {
         this.InitializeComponent();
-        ViewModel = ((App)Microsoft.UI.Xaml.Application.Current).Services.GetService<StockListViewModel>();
+        ViewModel = App.GetService<StockListViewModel>();
         this.Name = "PageRoot";
     }
 

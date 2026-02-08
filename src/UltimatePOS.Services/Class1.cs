@@ -1,4 +1,4 @@
-﻿namespace UltimatePOS.Services;
+namespace UltimatePOS.Services;
 
 public class Class1
 {

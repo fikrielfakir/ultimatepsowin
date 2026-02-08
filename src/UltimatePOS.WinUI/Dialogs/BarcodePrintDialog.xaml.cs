@@ -1,5 +1,5 @@
 using Microsoft.UI.Xaml.Controls;
-using UltimatePOS.Core.ViewModels.Product;
+using UltimatePOS.Core.ViewModels.Products;
 
 namespace UltimatePOS.WinUI.Dialogs;
 

@@ -1,4 +1,4 @@
-﻿namespace UltimatePOS.Core;
+namespace UltimatePOS.Core;
 
 public class Class1
 {

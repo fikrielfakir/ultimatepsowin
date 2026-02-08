@@ -179,4 +179,22 @@ public class ProductService : ServiceBase, IProductService
     {
         return await _unitOfWork.Units.GetAllAsync();
     }
+
+    public async Task<IEnumerable<Product>> GetProductsByBusinessIdAsync(int businessId)
+    {
+        // Ensure we only return products for the requested business
+        // This is a double check since _sessionService should already handle scoping if used,
+        // but here we are explicitly asked for a specific businessId.
+        // However, for security in a multi-tenant app, we should probably check if businessId matches current session
+        // or if the user has permission. For now, we will trust the caller but filter by the ID.
+        
+        List<Product> products = await _unitOfWork.Products.Query()
+            .Where(p => p.BusinessId == businessId)
+            .Include(p => p.Brand)
+            .Include(p => p.Category)
+            .Include(p => p.Unit)
+            .ToListAsync();
+
+        return products;
+    }
 }

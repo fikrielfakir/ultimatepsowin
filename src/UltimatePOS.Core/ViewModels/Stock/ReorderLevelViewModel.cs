@@ -12,6 +12,8 @@ public partial class ReorderLevelViewModel : ObservableObject
 {
     private readonly IProductService _productService;
     private readonly ILocationService _locationService;
+    private readonly ISessionService _sessionService;
+    private readonly IDialogService _dialogService;
 
     [ObservableProperty]
     private ObservableCollection<Product> _products = new();
@@ -33,10 +35,14 @@ public partial class ReorderLevelViewModel : ObservableObject
 
     public ReorderLevelViewModel(
         IProductService productService,
-        ILocationService locationService)
+        ILocationService locationService,
+        ISessionService sessionService,
+        IDialogService dialogService)
     {
         _productService = productService;
         _locationService = locationService;
+        _sessionService = sessionService;
+        _dialogService = dialogService;
     }
 
     public async Task InitializeAsync(int? locationId = null)
@@ -44,8 +50,15 @@ public partial class ReorderLevelViewModel : ObservableObject
         IsLoading = true;
         try
         {
+            var businessId = _sessionService.CurrentBusiness?.Id;
+            if (businessId == null)
+            {
+                await _dialogService.ShowErrorAsync("Error", "No active business session found.");
+                return;
+            }
+
             // Load locations
-            var locations = await _locationService.GetLocationsByBusinessIdAsync(1); // TODO: Get current business ID
+            var locations = await _locationService.GetLocationsByBusinessIdAsync(businessId.Value);
             Locations.Clear();
             foreach (var loc in locations)
             {
@@ -75,12 +88,27 @@ public partial class ReorderLevelViewModel : ObservableObject
         IsLoading = true;
         try
         {
-            var allProducts = await _productService.GetProductsByBusinessIdAsync(1); // TODO: Get current business ID
+            var businessId = _sessionService.CurrentBusiness?.Id;
+            if (businessId == null) return;
+            
+            var allProducts = await _productService.GetProductsByBusinessIdAsync(businessId.Value);
             
             Products.Clear();
             foreach (var product in allProducts.Where(p => p.IsActive))
             {
-                Products.Add(product);
+                // Filter by search text if present
+                if (!string.IsNullOrWhiteSpace(SearchText))
+                {
+                    if (product.Name.Contains(SearchText, StringComparison.OrdinalIgnoreCase) || 
+                        product.SKU.Contains(SearchText, StringComparison.OrdinalIgnoreCase))
+                    {
+                        Products.Add(product);
+                    }
+                }
+                else
+                {
+                    Products.Add(product);
+                }
             }
 
             HasChanges = false;
@@ -105,6 +133,11 @@ public partial class ReorderLevelViewModel : ObservableObject
             }
 
             HasChanges = false;
+            await _dialogService.ShowMessageAsync("Success", "Reorder levels updated successfully.");
+        }
+        catch (Exception ex)
+        {
+            await _dialogService.ShowErrorAsync("Save Failed", $"Failed to save reorder levels: {ex.Message}");
         }
         finally
         {

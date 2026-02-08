@@ -15,6 +15,23 @@ public sealed partial class StockAdjustmentDialog : ContentDialog
     public StockAdjustmentDialog()
     {
         this.InitializeComponent();
-        ViewModel = ((App)Microsoft.UI.Xaml.Application.Current).Services.GetService<StockAdjustmentViewModel>();
+        ViewModel = App.GetService<StockAdjustmentViewModel>();
+        this.PrimaryButtonClick += StockAdjustmentDialog_PrimaryButtonClick;
+    }
+
+    private async void StockAdjustmentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
+    {
+        // Defer close to allow async operation
+        var deferral = args.GetDeferral();
+        
+        var success = await ViewModel.SaveAsync();
+        
+        // Cancel the close if save failed
+        if (!success)
+        {
+            args.Cancel = true;
+        }
+        
+        deferral.Complete();
     }
 }

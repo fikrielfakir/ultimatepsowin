@@ -11,6 +11,6 @@ public sealed partial class StockHistoryDialog : ContentDialog
     public StockHistoryDialog()
     {
         this.InitializeComponent();
-        ViewModel = ((App)Microsoft.UI.Xaml.Application.Current).Services.GetService<StockHistoryViewModel>();
+        ViewModel = App.GetService<StockHistoryViewModel>();
     }
 }

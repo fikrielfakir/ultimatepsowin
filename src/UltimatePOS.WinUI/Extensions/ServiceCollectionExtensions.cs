@@ -98,9 +98,9 @@ public static class ServiceCollectionExtensions
         services.AddTransient<UltimatePOS.Core.ViewModels.Business.BusinessListViewModel>();
         services.AddTransient<UltimatePOS.Core.ViewModels.Business.LocationListViewModel>();
         services.AddTransient<UltimatePOS.Core.ViewModels.DashboardViewModel>();
-        services.AddTransient<UltimatePOS.Core.ViewModels.Product.ProductListViewModel>();
-        services.AddTransient<UltimatePOS.Core.ViewModels.Product.ProductFormViewModel>();
-        services.AddTransient<UltimatePOS.Core.ViewModels.Product.BarcodePrintViewModel>();
+        services.AddTransient<UltimatePOS.Core.ViewModels.Products.ProductListViewModel>();
+        services.AddTransient<UltimatePOS.Core.ViewModels.Products.ProductFormViewModel>();
+        services.AddTransient<UltimatePOS.Core.ViewModels.Products.BarcodePrintViewModel>();
         services.AddTransient<UltimatePOS.Core.ViewModels.Stock.StockListViewModel>();
         services.AddTransient<UltimatePOS.Core.ViewModels.Stock.StockAdjustmentViewModel>();
         services.AddTransient<UltimatePOS.Core.ViewModels.Stock.StockTransferViewModel>();

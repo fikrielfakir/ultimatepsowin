@@ -13,6 +13,7 @@ public partial class StockHistoryViewModel : ObservableObject
 {
     private readonly IStockService _stockService;
     private readonly IProductService _productService;
+    private readonly IDialogService _dialogService;
 
     [ObservableProperty]
     private ObservableCollection<StockHistory> _histories = new();
@@ -31,10 +32,12 @@ public partial class StockHistoryViewModel : ObservableObject
 
     public StockHistoryViewModel(
         IStockService stockService,
-        IProductService productService)
+        IProductService productService,
+        IDialogService dialogService)
     {
         _stockService = stockService;
         _productService = productService;
+        _dialogService = dialogService;
         
         // Default to last 30 days
         _fromDate = DateTime.Now.AddDays(-30);
@@ -48,6 +51,10 @@ public partial class StockHistoryViewModel : ObservableObject
         {
             SelectedProduct = await _productService.GetProductByIdAsync(productId);
             await LoadHistoryAsync();
+        }
+        catch (Exception ex)
+        {
+            await _dialogService.ShowErrorAsync("Initialization Error", $"Failed to load product: {ex.Message}");
         }
         finally
         {
@@ -73,6 +80,10 @@ public partial class StockHistoryViewModel : ObservableObject
             {
                 Histories.Add(history);
             }
+        }
+        catch (Exception ex)
+        {
+            await _dialogService.ShowErrorAsync("Error", $"Failed to load history: {ex.Message}");
         }
         finally
         {

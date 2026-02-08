@@ -1,6 +1,6 @@
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Navigation;
-using UltimatePOS.Core.ViewModels.Product;
+using UltimatePOS.Core.ViewModels.Products;
 using UltimatePOS.WinUI.Helpers;
 
 namespace UltimatePOS.WinUI.Views.Product;

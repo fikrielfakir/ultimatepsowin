@@ -10,10 +10,10 @@
     mc:Ignorable="d"
     Title="Transfer Stock"
     PrimaryButtonText="Transfer"
-    PrimaryButtonCommand="{x:Bind ViewModel.TransferCommand}"
     CloseButtonText="Cancel"
     DefaultButton="Primary"
     Style="{StaticResource DefaultContentDialogStyle}">
+
 
     <StackPanel Spacing="16" MinWidth="400">
         <!-- Product/Search (Simplified to selection for now) -->

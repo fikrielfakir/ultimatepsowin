@@ -1,0 +1,2000 @@
+﻿                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Runtime.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Runtime.Extensions.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Handles.dll
+                                     AssemblyName=System.Runtime.Handles
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Runtime.Handles, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Runtime.Handles.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.InteropServices.dll
+                                     AssemblyName=System.Runtime.InteropServices
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Runtime.InteropServices, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Runtime.InteropServices.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.InteropServices.JavaScript.dll
+                                     AssemblyName=System.Runtime.InteropServices.JavaScript
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Runtime.InteropServices.JavaScript, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Runtime.InteropServices.JavaScript.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.InteropServices.RuntimeInformation.dll
+                                     AssemblyName=System.Runtime.InteropServices.RuntimeInformation
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Runtime.InteropServices.RuntimeInformation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Runtime.InteropServices.RuntimeInformation.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Intrinsics.dll
+                                     AssemblyName=System.Runtime.Intrinsics
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Runtime.Intrinsics, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Runtime.Intrinsics.dll
+                                     Private=false
+                                     PublicKeyToken=cc7b13ffcd2ddd51
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Loader.dll
+                                     AssemblyName=System.Runtime.Loader
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Runtime.Loader, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Runtime.Loader.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Numerics.dll
+                                     AssemblyName=System.Runtime.Numerics
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Runtime.Numerics, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Runtime.Numerics.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Serialization.dll
+                                     AssemblyName=System.Runtime.Serialization
+                                     AssemblyVersion=4.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Runtime.Serialization.dll
+                                     Private=false
+                                     PublicKeyToken=b77a5c561934e089
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Serialization.Formatters.dll
+                                     AssemblyName=System.Runtime.Serialization.Formatters
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Runtime.Serialization.Formatters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Runtime.Serialization.Formatters.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Serialization.Json.dll
+                                     AssemblyName=System.Runtime.Serialization.Json
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Runtime.Serialization.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Runtime.Serialization.Json.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Serialization.Primitives.dll
+                                     AssemblyName=System.Runtime.Serialization.Primitives
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Runtime.Serialization.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Runtime.Serialization.Primitives.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Serialization.Xml.dll
+                                     AssemblyName=System.Runtime.Serialization.Xml
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Runtime.Serialization.Xml, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Runtime.Serialization.Xml.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.AccessControl.dll
+                                     AssemblyName=System.Security.AccessControl
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Security.AccessControl, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Security.AccessControl.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Claims.dll
+                                     AssemblyName=System.Security.Claims
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Security.Claims, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Security.Claims.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.Algorithms.dll
+                                     AssemblyName=System.Security.Cryptography.Algorithms
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Security.Cryptography.Algorithms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Security.Cryptography.Algorithms.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.Cng.dll
+                                     AssemblyName=System.Security.Cryptography.Cng
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Security.Cryptography.Cng, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Security.Cryptography.Cng.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.Csp.dll
+                                     AssemblyName=System.Security.Cryptography.Csp
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Security.Cryptography.Csp, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Security.Cryptography.Csp.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.dll
+                                     AssemblyName=System.Security.Cryptography
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Security.Cryptography, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Security.Cryptography.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.Encoding.dll
+                                     AssemblyName=System.Security.Cryptography.Encoding
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Security.Cryptography.Encoding, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Security.Cryptography.Encoding.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.OpenSsl.dll
+                                     AssemblyName=System.Security.Cryptography.OpenSsl
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Security.Cryptography.OpenSsl, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Security.Cryptography.OpenSsl.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.Primitives.dll
+                                     AssemblyName=System.Security.Cryptography.Primitives
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Security.Cryptography.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Security.Cryptography.Primitives.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.X509Certificates.dll
+                                     AssemblyName=System.Security.Cryptography.X509Certificates
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Security.Cryptography.X509Certificates, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Security.Cryptography.X509Certificates.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.dll
+                                     AssemblyName=System.Security
+                                     AssemblyVersion=4.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Security.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Principal.dll
+                                     AssemblyName=System.Security.Principal
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Security.Principal, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Security.Principal.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Principal.Windows.dll
+                                     AssemblyName=System.Security.Principal.Windows
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Security.Principal.Windows, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Security.Principal.Windows.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.SecureString.dll
+                                     AssemblyName=System.Security.SecureString
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Security.SecureString, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Security.SecureString.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.ServiceModel.Web.dll
+                                     AssemblyName=System.ServiceModel.Web
+                                     AssemblyVersion=4.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.ServiceModel.Web.dll
+                                     Private=false
+                                     PublicKeyToken=31bf3856ad364e35
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.ServiceProcess.dll
+                                     AssemblyName=System.ServiceProcess
+                                     AssemblyVersion=4.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.ServiceProcess.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Text.Encoding.CodePages.dll
+                                     AssemblyName=System.Text.Encoding.CodePages
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Text.Encoding.CodePages, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Text.Encoding.CodePages.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Text.Encoding.dll
+                                     AssemblyName=System.Text.Encoding
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Text.Encoding, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Text.Encoding.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Text.Encoding.Extensions.dll
+                                     AssemblyName=System.Text.Encoding.Extensions
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Text.Encoding.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Text.Encoding.Extensions.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Text.Encodings.Web.dll
+                                     AssemblyName=System.Text.Encodings.Web
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Text.Encodings.Web.dll
+                                     Private=false
+                                     PublicKeyToken=cc7b13ffcd2ddd51
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Text.Json.dll
+                                     AssemblyName=System.Text.Json
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Text.Json.dll
+                                     Private=false
+                                     PublicKeyToken=cc7b13ffcd2ddd51
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Text.RegularExpressions.dll
+                                     AssemblyName=System.Text.RegularExpressions
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Text.RegularExpressions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Text.RegularExpressions.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Channels.dll
+                                     AssemblyName=System.Threading.Channels
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Threading.Channels, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Threading.Channels.dll
+                                     Private=false
+                                     PublicKeyToken=cc7b13ffcd2ddd51
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.dll
+                                     AssemblyName=System.Threading
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Threading, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Threading.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Overlapped.dll
+                                     AssemblyName=System.Threading.Overlapped
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Threading.Overlapped, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Threading.Overlapped.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Tasks.Dataflow.dll
+                                     AssemblyName=System.Threading.Tasks.Dataflow
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Threading.Tasks.Dataflow, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Threading.Tasks.Dataflow.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Tasks.dll
+                                     AssemblyName=System.Threading.Tasks
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Threading.Tasks, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Threading.Tasks.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Tasks.Extensions.dll
+                                     AssemblyName=System.Threading.Tasks.Extensions
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Threading.Tasks.Extensions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Threading.Tasks.Extensions.dll
+                                     Private=false
+                                     PublicKeyToken=cc7b13ffcd2ddd51
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Tasks.Parallel.dll
+                                     AssemblyName=System.Threading.Tasks.Parallel
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Threading.Tasks.Parallel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Threading.Tasks.Parallel.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Thread.dll
+                                     AssemblyName=System.Threading.Thread
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Threading.Thread, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Threading.Thread.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.ThreadPool.dll
+                                     AssemblyName=System.Threading.ThreadPool
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Threading.ThreadPool, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Threading.ThreadPool.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Timer.dll
+                                     AssemblyName=System.Threading.Timer
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Threading.Timer, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Threading.Timer.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Transactions.dll
+                                     AssemblyName=System.Transactions
+                                     AssemblyVersion=4.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Transactions.dll
+                                     Private=false
+                                     PublicKeyToken=b77a5c561934e089
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Transactions.Local.dll
+                                     AssemblyName=System.Transactions.Local
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Transactions.Local, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Transactions.Local.dll
+                                     Private=false
+                                     PublicKeyToken=cc7b13ffcd2ddd51
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.ValueTuple.dll
+                                     AssemblyName=System.ValueTuple
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.ValueTuple, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.ValueTuple.dll
+                                     Private=false
+                                     PublicKeyToken=cc7b13ffcd2ddd51
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Web.dll
+                                     AssemblyName=System.Web
+                                     AssemblyVersion=4.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Web.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Web.HttpUtility.dll
+                                     AssemblyName=System.Web.HttpUtility
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Web.HttpUtility, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Web.HttpUtility.dll
+                                     Private=false
+                                     PublicKeyToken=cc7b13ffcd2ddd51
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Windows.dll
+                                     AssemblyName=System.Windows
+                                     AssemblyVersion=4.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Windows, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Windows.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.dll
+                                     AssemblyName=System.Xml
+                                     AssemblyVersion=4.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Xml.dll
+                                     Private=false
+                                     PublicKeyToken=b77a5c561934e089
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.Linq.dll
+                                     AssemblyName=System.Xml.Linq
+                                     AssemblyVersion=4.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Xml.Linq.dll
+                                     Private=false
+                                     PublicKeyToken=b77a5c561934e089
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.ReaderWriter.dll
+                                     AssemblyName=System.Xml.ReaderWriter
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Xml.ReaderWriter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Xml.ReaderWriter.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.Serialization.dll
+                                     AssemblyName=System.Xml.Serialization
+                                     AssemblyVersion=4.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Xml.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Xml.Serialization.dll
+                                     Private=false
+                                     PublicKeyToken=b77a5c561934e089
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.XDocument.dll
+                                     AssemblyName=System.Xml.XDocument
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Xml.XDocument, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Xml.XDocument.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.XmlDocument.dll
+                                     AssemblyName=System.Xml.XmlDocument
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Xml.XmlDocument, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Xml.XmlDocument.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.XmlSerializer.dll
+                                     AssemblyName=System.Xml.XmlSerializer
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Xml.XmlSerializer, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Xml.XmlSerializer.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.XPath.dll
+                                     AssemblyName=System.Xml.XPath
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Xml.XPath, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Xml.XPath.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.XPath.XDocument.dll
+                                     AssemblyName=System.Xml.XPath.XDocument
+                                     AssemblyVersion=8.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=System.Xml.XPath.XDocument, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/System.Xml.XPath.XDocument.dll
+                                     Private=false
+                                     PublicKeyToken=b03f5f7f11d50a3a
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\bin\Debug\net8.0\UltimatePOS.Core.dll
+                                     AdditionalPropertiesFromProject=<AdditionalProjectProperties>
+                       <TargetFramework Name="net8.0">
+                         <SelfContained></SelfContained>
+                         <_IsExecutable></_IsExecutable>
+                         <IsRidAgnostic>true</IsRidAgnostic>
+                         <ShouldBeValidatedAsExecutableReference></ShouldBeValidatedAsExecutableReference>
+                         <_SelfContainedWasSpecified></_SelfContainedWasSpecified>
+                       </TargetFramework>
+                     </AdditionalProjectProperties>
+                                     BuildReference=true
+                                     CopyLocal=true
+                                     CopyUpToDateMarker=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\obj\Debug\net8.0\Ultimate.788FAB8D.Up2Date
+                                     FusionName=UltimatePOS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+                                     HasSingleTargetFramework=true
+                                     ImageRuntime=v4.0.30319
+                                     IsRidAgnostic=true
+                                     MSBuildSourceProjectFile=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\UltimatePOS.Core.csproj
+                                     MSBuildSourceTargetName=GetTargetFrameworks
+                                     NearestTargetFramework=net8.0
+                                     OriginalItemSpec=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\bin\Debug\net8.0\UltimatePOS.Core.dll
+                                     OriginalProjectReferenceItemSpec=..\UltimatePOS.Core\UltimatePOS.Core.csproj
+                                     OutputItemType=
+                                     Platform=AnyCPU
+                                     Platforms=AnyCPU
+                                     ProjectReferenceOriginalItemSpec=..\UltimatePOS.Core\UltimatePOS.Core.csproj
+                                     ReferenceAssembly=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\obj\Debug\net8.0\ref\UltimatePOS.Core.dll
+                                     ReferenceOutputAssembly=true
+                                     ReferenceSourceTarget=ProjectReference
+                                     ResolvedFrom=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\bin\Debug\net8.0\UltimatePOS.Core.dll
+                                     TargetFrameworkIdentifier=.NETCoreApp
+                                     TargetFrameworkMonikers=.NETCoreApp,Version=v8.0
+                                     TargetFrameworks=net8.0
+                                     TargetFrameworkVersion=8.0
+                                     TargetPlatformIdentifier=
+                                     TargetPlatformMoniker=
+                                     TargetPlatformMonikers=None
+                                     Targets=
+                                     UndefineProperties=;TargetFramework;RuntimeIdentifier;SelfContained
+                                     Version=
+                             C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\bin\Debug\net8.0\UltimatePOS.Data.dll
+                                     AdditionalPropertiesFromProject=<AdditionalProjectProperties>
+                       <TargetFramework Name="net8.0">
+                         <SelfContained></SelfContained>
+                         <_IsExecutable></_IsExecutable>
+                         <IsRidAgnostic>true</IsRidAgnostic>
+                         <ShouldBeValidatedAsExecutableReference></ShouldBeValidatedAsExecutableReference>
+                         <_SelfContainedWasSpecified></_SelfContainedWasSpecified>
+                       </TargetFramework>
+                     </AdditionalProjectProperties>
+                                     BuildReference=true
+                                     CopyLocal=true
+                                     CopyUpToDateMarker=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\Ultimate.C375EB24.Up2Date
+                                     FusionName=UltimatePOS.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+                                     HasSingleTargetFramework=true
+                                     ImageRuntime=v4.0.30319
+                                     IsRidAgnostic=true
+                                     MSBuildSourceProjectFile=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\UltimatePOS.Data.csproj
+                                     MSBuildSourceTargetName=GetTargetFrameworks
+                                     NearestTargetFramework=net8.0
+                                     OriginalItemSpec=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\bin\Debug\net8.0\UltimatePOS.Data.dll
+                                     OriginalProjectReferenceItemSpec=..\UltimatePOS.Data\UltimatePOS.Data.csproj
+                                     OutputItemType=
+                                     Platform=AnyCPU
+                                     Platforms=AnyCPU
+                                     ProjectReferenceOriginalItemSpec=..\UltimatePOS.Data\UltimatePOS.Data.csproj
+                                     ReferenceAssembly=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\obj\Debug\net8.0\ref\UltimatePOS.Data.dll
+                                     ReferenceOutputAssembly=true
+                                     ReferenceSourceTarget=ProjectReference
+                                     ResolvedFrom=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\bin\Debug\net8.0\UltimatePOS.Data.dll
+                                     TargetFrameworkIdentifier=.NETCoreApp
+                                     TargetFrameworkMonikers=.NETCoreApp,Version=v8.0
+                                     TargetFrameworks=net8.0
+                                     TargetFrameworkVersion=8.0
+                                     TargetPlatformIdentifier=
+                                     TargetPlatformMoniker=
+                                     TargetPlatformMonikers=None
+                                     Targets=
+                                     UndefineProperties=;TargetFramework;RuntimeIdentifier;SelfContained
+                                     Version=
+                             C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\bin\Debug\net8.0\UltimatePOS.Services.dll
+                                     AdditionalPropertiesFromProject=<AdditionalProjectProperties>
+                       <TargetFramework Name="net8.0">
+                         <SelfContained></SelfContained>
+                         <_IsExecutable></_IsExecutable>
+                         <IsRidAgnostic>true</IsRidAgnostic>
+                         <ShouldBeValidatedAsExecutableReference></ShouldBeValidatedAsExecutableReference>
+                         <_SelfContainedWasSpecified></_SelfContainedWasSpecified>
+                       </TargetFramework>
+                     </AdditionalProjectProperties>
+                                     BuildReference=true
+                                     CopyLocal=true
+                                     CopyUpToDateMarker=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\obj\Debug\net8.0\Ultimate.0DE0191C.Up2Date
+                                     FusionName=UltimatePOS.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+                                     HasSingleTargetFramework=true
+                                     ImageRuntime=v4.0.30319
+                                     IsRidAgnostic=true
+                                     MSBuildSourceProjectFile=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\UltimatePOS.Services.csproj
+                                     MSBuildSourceTargetName=GetTargetFrameworks
+                                     NearestTargetFramework=net8.0
+                                     OriginalItemSpec=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\bin\Debug\net8.0\UltimatePOS.Services.dll
+                                     OriginalProjectReferenceItemSpec=..\UltimatePOS.Services\UltimatePOS.Services.csproj
+                                     OutputItemType=
+                                     Platform=AnyCPU
+                                     Platforms=AnyCPU
+                                     ProjectReferenceOriginalItemSpec=..\UltimatePOS.Services\UltimatePOS.Services.csproj
+                                     ReferenceAssembly=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\obj\Debug\net8.0\ref\UltimatePOS.Services.dll
+                                     ReferenceOutputAssembly=true
+                                     ReferenceSourceTarget=ProjectReference
+                                     ResolvedFrom=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\bin\Debug\net8.0\UltimatePOS.Services.dll
+                                     TargetFrameworkIdentifier=.NETCoreApp
+                                     TargetFrameworkMonikers=.NETCoreApp,Version=v8.0
+                                     TargetFrameworks=net8.0
+                                     TargetFrameworkVersion=8.0
+                                     TargetPlatformIdentifier=
+                                     TargetPlatformMoniker=
+                                     TargetPlatformMonikers=None
+                                     Targets=
+                                     UndefineProperties=;TargetFramework;RuntimeIdentifier;SelfContained
+                                     Version=
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\WindowsBase.dll
+                                     AssemblyName=WindowsBase
+                                     AssemblyVersion=4.0.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=8.0.2325.60607
+                                     FrameworkReferenceName=Microsoft.NETCore.App
+                                     FrameworkReferenceVersion=8.0.23
+                                     FusionName=WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.NETCore.App.Ref
+                                     NuGetPackageVersion=8.0.23
+                                     OriginalItemSpec=C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref/net8.0/WindowsBase.dll
+                                     Private=false
+                                     PublicKeyToken=31bf3856ad364e35
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Users\fikri\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\WinRT.Runtime.dll
+                                     AssemblyName=WinRT.Runtime
+                                     AssemblyVersion=2.2.0.0
+                                     CopyLocal=false
+                                     ExternallyResolved=true
+                                     FileVersion=2.2.0.48161
+                                     FrameworkReferenceName=Microsoft.Windows.SDK.NET.Ref.Windows
+                                     FrameworkReferenceVersion=10.0.19041.57
+                                     FusionName=WinRT.Runtime, Version=2.2.0.0, Culture=neutral, PublicKeyToken=99ea127f02d97709
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=Microsoft.Windows.SDK.NET.Ref
+                                     NuGetPackageVersion=10.0.19041.57
+                                     OriginalItemSpec=C:\Users\fikri\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib/net8.0/WinRT.Runtime.dll
+                                     Private=false
+                                     PublicKeyToken=99ea127f02d97709
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={RawFileName}
+                                     Version=
+                             C:\Users\fikri\.nuget\packages\zxing.net\0.16.11\lib\net8.0\zxing.dll
+                                     CopyLocal=false
+                                     ExternallyResolved=
+                                     FusionName=zxing, Version=0.16.11.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60
+                                     HintPath=C:\Users\fikri\.nuget\packages\zxing.net\0.16.11\lib\net8.0\zxing.dll
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=ZXing.Net
+                                     NuGetPackageVersion=0.16.11
+                                     NuGetSourceType=Package
+                                     OriginalItemSpec=C:\Users\fikri\.nuget\packages\zxing.net\0.16.11\lib\net8.0\zxing.dll
+                                     PathInPackage=lib/net8.0/zxing.dll
+                                     Private=false
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={HintPathFromItem}
+                                     Version=
+                             C:\Users\fikri\.nuget\packages\zxing.net.bindings.skiasharp\0.16.22\lib\net8.0\ZXing.SkiaSharp.dll
+                                     CopyLocal=false
+                                     ExternallyResolved=
+                                     FusionName=ZXing.SkiaSharp, Version=0.16.22.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60
+                                     HintPath=C:\Users\fikri\.nuget\packages\zxing.net.bindings.skiasharp\0.16.22\lib\net8.0\ZXing.SkiaSharp.dll
+                                     ImageRuntime=v4.0.30319
+                                     NuGetPackageId=ZXing.Net.Bindings.SkiaSharp
+                                     NuGetPackageVersion=0.16.22
+                                     NuGetSourceType=Package
+                                     OriginalItemSpec=C:\Users\fikri\.nuget\packages\zxing.net.bindings.skiasharp\0.16.22\lib\net8.0\ZXing.SkiaSharp.dll
+                                     PathInPackage=lib/net8.0/ZXing.SkiaSharp.dll
+                                     Private=false
+                                     ReferenceSourceTarget=ResolveAssemblyReference
+                                     ResolvedFrom={HintPathFromItem}
+                                     Version= (TaskId:183)
+                     Output Item(s): 
+                         _ResolveAssemblyReferenceResolvedFilesAbsolute=
+                             C:\Users\fikri\.nuget\packages\bcrypt.net-next\4.0.3\lib\net6.0\BCrypt.Net-Next.dll
+                             C:\Users\fikri\.nuget\packages\communitytoolkit.mvvm\8.2.2\lib\net6.0\CommunityToolkit.Mvvm.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\Microsoft.CSharp.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.data.sqlite.core\8.0.1\lib\net8.0\Microsoft.Data.Sqlite.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.entityframeworkcore.abstractions\8.0.23\lib\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.entityframeworkcore\8.0.23\lib\net8.0\Microsoft.EntityFrameworkCore.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.entityframeworkcore.relational\8.0.23\lib\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.entityframeworkcore.sqlite.core\8.0.1\lib\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.caching.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.caching.memory\8.0.1\lib\net8.0\Microsoft.Extensions.Caching.Memory.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.configuration.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.configuration.binder\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.configuration.commandline\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.CommandLine.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.configuration.environmentvariables\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.configuration.fileextensions\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.configuration.json\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Json.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.configuration.usersecrets\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.2\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.dependencyinjection\8.0.1\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.dependencymodel\8.0.2\lib\net8.0\Microsoft.Extensions.DependencyModel.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.diagnostics.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.diagnostics\8.0.0\lib\net8.0\Microsoft.Extensions.Diagnostics.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.fileproviders.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.fileproviders.physical\8.0.0\lib\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.filesystemglobbing\8.0.0\lib\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.hosting.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.hosting\8.0.0\lib\net8.0\Microsoft.Extensions.Hosting.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.2\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.logging.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Configuration.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.logging.console\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Console.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.logging.debug\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Debug.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.logging\8.0.1\lib\net8.0\Microsoft.Extensions.Logging.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.logging.eventlog\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.EventLog.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.logging.eventsource\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.EventSource.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.options.configurationextensions\8.0.0\lib\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.options\8.0.2\lib\net8.0\Microsoft.Extensions.Options.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.extensions.primitives\8.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\Microsoft.VisualBasic.Core.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\Microsoft.VisualBasic.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\Microsoft.Win32.Primitives.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\Microsoft.Win32.Registry.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Management.Deployment.Projection.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.WinUI.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\mscorlib.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\netstandard.dll
+                             C:\Users\fikri\.nuget\packages\serilog\4.1.0\lib\net8.0\Serilog.dll
+                             C:\Users\fikri\.nuget\packages\serilog.extensions.hosting\8.0.0\lib\net8.0\Serilog.Extensions.Hosting.dll
+                             C:\Users\fikri\.nuget\packages\serilog.extensions.logging\8.0.0\lib\net8.0\Serilog.Extensions.Logging.dll
+                             C:\Users\fikri\.nuget\packages\serilog.sinks.debug\3.0.0\lib\net8.0\Serilog.Sinks.Debug.dll
+                             C:\Users\fikri\.nuget\packages\serilog.sinks.file\6.0.0\lib\net8.0\Serilog.Sinks.File.dll
+                             C:\Users\fikri\.nuget\packages\skiasharp\3.119.1\ref\net8.0-windows10.0.19041\SkiaSharp.dll
+                             C:\Users\fikri\.nuget\packages\sqlitepclraw.bundle_e_sqlite3\2.1.6\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll
+                             C:\Users\fikri\.nuget\packages\sqlitepclraw.core\2.1.6\lib\netstandard2.0\SQLitePCLRaw.core.dll
+                             C:\Users\fikri\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.6\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.AppContext.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Buffers.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Collections.Concurrent.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Collections.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Collections.Immutable.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Collections.NonGeneric.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Collections.Specialized.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.ComponentModel.Annotations.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.ComponentModel.DataAnnotations.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.ComponentModel.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.ComponentModel.EventBasedAsync.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.ComponentModel.Primitives.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.ComponentModel.TypeConverter.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Configuration.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Console.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Core.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Data.Common.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Data.DataSetExtensions.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Data.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Diagnostics.Contracts.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Diagnostics.Debug.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Diagnostics.DiagnosticSource.dll
+                             C:\Users\fikri\.nuget\packages\system.diagnostics.eventlog\8.0.0\lib\net8.0\System.Diagnostics.EventLog.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Diagnostics.FileVersionInfo.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Diagnostics.Process.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Diagnostics.StackTrace.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Diagnostics.TextWriterTraceListener.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Diagnostics.Tools.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Diagnostics.TraceSource.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Diagnostics.Tracing.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Drawing.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Drawing.Primitives.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Dynamic.Runtime.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Formats.Asn1.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Formats.Tar.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Globalization.Calendars.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Globalization.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Globalization.Extensions.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.IO.Compression.Brotli.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.IO.Compression.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.IO.Compression.FileSystem.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.IO.Compression.ZipFile.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.IO.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.IO.FileSystem.AccessControl.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.IO.FileSystem.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.IO.FileSystem.DriveInfo.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.IO.FileSystem.Primitives.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.IO.FileSystem.Watcher.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.IO.IsolatedStorage.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.IO.MemoryMappedFiles.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.IO.Pipes.AccessControl.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.IO.Pipes.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.IO.UnmanagedMemoryStream.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Linq.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Linq.Expressions.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Linq.Parallel.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Linq.Queryable.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Memory.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.Http.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.Http.Json.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.HttpListener.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.Mail.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.NameResolution.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.NetworkInformation.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.Ping.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.Primitives.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.Quic.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.Requests.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.Security.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.ServicePoint.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.Sockets.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.WebClient.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.WebHeaderCollection.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.WebProxy.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.WebSockets.Client.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Net.WebSockets.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Numerics.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Numerics.Vectors.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.ObjectModel.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Reflection.DispatchProxy.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Reflection.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Reflection.Emit.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Reflection.Emit.ILGeneration.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Reflection.Emit.Lightweight.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Reflection.Extensions.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Reflection.Metadata.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Reflection.Primitives.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Reflection.TypeExtensions.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Resources.Reader.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Resources.ResourceManager.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Resources.Writer.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.CompilerServices.Unsafe.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.CompilerServices.VisualC.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Extensions.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Handles.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.InteropServices.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.InteropServices.JavaScript.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.InteropServices.RuntimeInformation.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Intrinsics.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Loader.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Numerics.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Serialization.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Serialization.Formatters.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Serialization.Json.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Serialization.Primitives.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Runtime.Serialization.Xml.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.AccessControl.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Claims.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.Algorithms.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.Cng.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.Csp.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.Encoding.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.OpenSsl.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.Primitives.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Cryptography.X509Certificates.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Principal.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.Principal.Windows.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Security.SecureString.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.ServiceModel.Web.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.ServiceProcess.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Text.Encoding.CodePages.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Text.Encoding.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Text.Encoding.Extensions.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Text.Encodings.Web.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Text.Json.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Text.RegularExpressions.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Channels.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Overlapped.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Tasks.Dataflow.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Tasks.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Tasks.Extensions.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Tasks.Parallel.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Thread.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.ThreadPool.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Threading.Timer.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Transactions.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Transactions.Local.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.ValueTuple.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Web.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Web.HttpUtility.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Windows.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.Linq.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.ReaderWriter.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.Serialization.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.XDocument.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.XmlDocument.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.XmlSerializer.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.XPath.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\System.Xml.XPath.XDocument.dll
+                             C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\bin\Debug\net8.0\UltimatePOS.Core.dll
+                             C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\bin\Debug\net8.0\UltimatePOS.Data.dll
+                             C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\bin\Debug\net8.0\UltimatePOS.Services.dll
+                             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.23\ref\net8.0\WindowsBase.dll
+                             C:\Users\fikri\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\WinRT.Runtime.dll
+                             C:\Users\fikri\.nuget\packages\zxing.net\0.16.11\lib\net8.0\zxing.dll
+                             C:\Users\fikri\.nuget\packages\zxing.net.bindings.skiasharp\0.16.22\lib\net8.0\ZXing.SkiaSharp.dll (TaskId:183)
+                   Done executing task "ConvertToAbsolutePath". (TaskId:183)
+                   Added Item(s): _CleanPriorFileWrites=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\obj\Debug\net8.0-windows10.0.19041.0\UltimatePOS.WinUI.csproj.AssemblyReference.cache
+                   Set Property: TrackFileWritesShareableOutsideOfProjectDirectory=false
+                   Task "FindUnderPath" (TaskId:184)
+                     Task Parameter:Path=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI (TaskId:184)
+                     Task Parameter:UpdateToAbsolutePaths=True (TaskId:184)
+                     Comparison path is "C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI". (TaskId:184)
+                   Done executing task "FindUnderPath". (TaskId:184)
+                   Task "FindUnderPath" (TaskId:185)
+                     Task Parameter:Path=bin\Debug\net8.0-windows10.0.19041.0\ (TaskId:185)
+                     Task Parameter:UpdateToAbsolutePaths=True (TaskId:185)
+                     Task Parameter:Files=obj\Debug\net8.0-windows10.0.19041.0\UltimatePOS.WinUI.csproj.AssemblyReference.cache (TaskId:185)
+                     Comparison path is "bin\Debug\net8.0-windows10.0.19041.0\". (TaskId:185)
+                   Done executing task "FindUnderPath". (TaskId:185)
+                   Task "FindUnderPath" (TaskId:186)
+                     Task Parameter:Path=obj\Debug\net8.0-windows10.0.19041.0\ (TaskId:186)
+                     Task Parameter:UpdateToAbsolutePaths=True (TaskId:186)
+                     Task Parameter:Files=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\obj\Debug\net8.0-windows10.0.19041.0\UltimatePOS.WinUI.csproj.AssemblyReference.cache (TaskId:186)
+                     Comparison path is "obj\Debug\net8.0-windows10.0.19041.0\". (TaskId:186)
+                     Output Item(s): _CleanCurrentFileWritesInIntermediate=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\obj\Debug\net8.0-windows10.0.19041.0\UltimatePOS.WinUI.csproj.AssemblyReference.cache (TaskId:186)
+                   Done executing task "FindUnderPath". (TaskId:186)
+                   Added Item(s): _CleanCurrentFileWritesWithNoReferences=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\obj\Debug\net8.0-windows10.0.19041.0\UltimatePOS.WinUI.csproj.AssemblyReference.cache
+                   Task "RemoveDuplicates" (TaskId:187)
+                     Output Item(s): _CleanCurrentFileWrites=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\obj\Debug\net8.0-windows10.0.19041.0\UltimatePOS.WinUI.csproj.AssemblyReference.cache (TaskId:187)
+                   Done executing task "RemoveDuplicates". (TaskId:187)
+13:04:04.733   1:7>Done building target "_CleanGetCurrentAndPriorFileWrites" in project "UltimatePOS.WinUI.csproj".: (TargetId:272)
+13:04:04.733   1:7>Target "_CleanRecordFileWrites: (TargetId:273)" in file "C:\Program Files\dotnet\sdk\10.0.102\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\UltimatePOS.WinUI.csproj" (target "CoreBuild" depends on it):
+                   Task "RemoveDuplicates" (TaskId:188)
+                     Output Item(s): _CleanUniqueFileWrites=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\obj\Debug\net8.0-windows10.0.19041.0\UltimatePOS.WinUI.csproj.AssemblyReference.cache (TaskId:188)
+                   Done executing task "RemoveDuplicates". (TaskId:188)
+                   Task "MakeDir" (TaskId:189)
+                     Task Parameter:Directories=obj\Debug\net8.0-windows10.0.19041.0\ (TaskId:189)
+                   Done executing task "MakeDir". (TaskId:189)
+                   Task "WriteLinesToFile" (TaskId:190)
+                     Task Parameter:File=obj\Debug\net8.0-windows10.0.19041.0\UltimatePOS.WinUI.csproj.FileListAbsolute.txt (TaskId:190)
+                     Task Parameter:Overwrite=True (TaskId:190)
+                     Task Parameter:WriteOnlyWhenDifferent=True (TaskId:190)
+                     Task Parameter:Lines=C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\obj\Debug\net8.0-windows10.0.19041.0\UltimatePOS.WinUI.csproj.AssemblyReference.cache (TaskId:190)
+                     Skipping write to file "obj\Debug\net8.0-windows10.0.19041.0\UltimatePOS.WinUI.csproj.FileListAbsolute.txt" because content would not change. (TaskId:190)
+                   Done executing task "WriteLinesToFile". (TaskId:190)
+13:04:04.735   1:7>Done building target "_CleanRecordFileWrites" in project "UltimatePOS.WinUI.csproj".: (TargetId:273)
+13:04:04.735   1:7>Done Building Project "C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\UltimatePOS.WinUI.csproj" (default targets) -- FAILED.
+Deferred Messages
+13:04:01.268     0>
+Detailed Build Summary
+======================
+     (TaskId:0)
+                     
+                     ============================== Build Hierarchy (IDs represent configurations) =====================================================
+                     Id                  : Exclusive Time   Total Time   Path (Targets)
+                     ----------------------------------------------------------------------------------------------------------------------------------- (TaskId:0)
+                     0                   : 0.540s           0.828s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\UltimatePOS.WinUI.csproj (Restore)  (TaskId:0)
+                     | 1                 : 0.018s           0.018s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\UltimatePOS.WinUI.csproj (_IsProjectRestoreSupported)  (TaskId:0)
+                     | 2                 : 0.005s           0.101s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\UltimatePOS.WinUI.csproj (_GenerateRestoreProjectPathWalk)  (TaskId:0)
+                     | | 3               : 0.045s           0.045s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\UltimatePOS.Core.csproj (_GenerateRestoreProjectPathWalk)  (TaskId:0)
+                     | | 4               : 0.048s           0.048s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\UltimatePOS.Data.csproj (_GenerateRestoreProjectPathWalk)  (TaskId:0)
+                     | . 5               : 0.041s           0.050s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\UltimatePOS.Services.csproj (_GenerateRestoreProjectPathWalk)  (TaskId:0)
+                     | | . 4             : 0.000s           0.000s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\UltimatePOS.Data.csproj (_GenerateRestoreProjectPathWalk)  (TaskId:0)
+                     | 10                : 0.002s           0.002s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\UltimatePOS.Services.csproj (_IsProjectRestoreSupported)  (TaskId:0)
+                     | 9                 : 0.002s           0.002s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\UltimatePOS.Data.csproj (_IsProjectRestoreSupported)  (TaskId:0)
+                     | 8                 : 0.001s           0.001s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\UltimatePOS.Core.csproj (_IsProjectRestoreSupported)  (TaskId:0)
+                     | 13                : 0.023s           0.023s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\UltimatePOS.Services.csproj (_GenerateRestoreGraphProjectEntry)  (TaskId:0)
+                     | 12                : 0.013s           0.013s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\UltimatePOS.Data.csproj (_GenerateRestoreGraphProjectEntry)  (TaskId:0)
+                     | 11                : 0.110s           0.110s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\UltimatePOS.Core.csproj (_GenerateRestoreGraphProjectEntry)  (TaskId:0)
+                     | 14                : 0.043s           0.043s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\UltimatePOS.WinUI.csproj (_GenerateRestoreGraphProjectEntry)  (TaskId:0)
+                     | 17                : 0.008s           0.008s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\UltimatePOS.Services.csproj (_GenerateProjectRestoreGraph)  (TaskId:0)
+                     | 16                : 0.008s           0.008s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\UltimatePOS.Data.csproj (_GenerateProjectRestoreGraph)  (TaskId:0)
+                     | 15                : 0.008s           0.008s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\UltimatePOS.Core.csproj (_GenerateProjectRestoreGraph)  (TaskId:0)
+                     . 18                : 0.006s           0.006s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\UltimatePOS.WinUI.csproj (_GenerateProjectRestoreGraph)  (TaskId:0)
+                     
+                     ============================== Node Utilization (IDs represent configurations) ====================================================
+                     Timestamp:            1       3       2        Duration   Cumulative
+                     ----------------------------------------------------------------------------------------------------------------------------------- (TaskId:0)
+                     639061490404382024:   0       x       x        0.341s     0.341s ...... (TaskId:0)
+                     639061490407793337:   1       x       x        0.018s     0.359s  (TaskId:0)
+                     639061490407972303:   0       x       x        0.013s     0.372s  (TaskId:0)
+                     639061490408105897:   2       x       x        0.003s     0.375s  (TaskId:0)
+                     639061490408135963:   3       x       x        0.045s     0.421s  (TaskId:0)
+                     639061490408589455:   |       4       5        0.000s     0.421s  (TaskId:0)
+                     639061490408591135:   x       |       |        0.038s     0.459s  (TaskId:0)
+                     639061490408970354:   x       |       x        0.010s     0.468s  (TaskId:0)
+                     639061490409066687:   x       x       5        0.002s     0.471s  (TaskId:0)
+                     639061490409090163:   2       x       x        0.002s     0.473s  (TaskId:0)
+                     639061490409112277:   0       x       x        0.001s     0.474s  (TaskId:0)
+                     639061490409126553:   8       9       10       0.001s     0.475s  (TaskId:0)
+                     639061490409132248:   x       |       |        0.002s     0.477s  (TaskId:0)
+                     639061490409147600:   x       |       x        0.000s     0.477s  (TaskId:0)
+                     639061490409148244:   0       x       x        0.003s     0.480s  (TaskId:0)
+                     639061490409179548:   11      12      13       0.014s     0.493s  (TaskId:0)
+                     639061490409315020:   |       x       |        0.009s     0.503s  (TaskId:0)
+                     639061490409408154:   |       x       x        0.087s     0.590s . (TaskId:0)
+                     639061490410278624:   14      x       x        0.043s     0.633s  (TaskId:0)
+                     639061490410708892:   0       x       x        0.001s     0.634s  (TaskId:0)
+                     639061490410723340:   15      16      17       0.008s     0.642s  (TaskId:0)
+                     639061490410800368:   18      |       |        0.000s     0.642s  (TaskId:0)
+                     639061490410802210:   |       |       x        0.000s     0.642s  (TaskId:0)
+                     639061490410802484:   |       x       x        0.006s     0.648s  (TaskId:0)
+                     639061490410859320:   0       x       x        0.183s     0.830s ... (TaskId:0)
+                     -----------------------------------------------------------------------------------------------------------------------------------
+                     Utilization:          93.8    17.4    17.9     Average Utilization: 43.0 (TaskId:0)
+                     
+                     Detailed Build Summary
+                     ======================
+                          (TaskId:0)
+                     
+                     ============================== Build Hierarchy (IDs represent configurations) =====================================================
+                     Id                  : Exclusive Time   Total Time   Path (Targets)
+                     ----------------------------------------------------------------------------------------------------------------------------------- (TaskId:0)
+                     19                  : 2.233s           3.036s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\UltimatePOS.WinUI.csproj ()  (TaskId:0)
+                     | 22                : 0.217s           0.217s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\UltimatePOS.Services.csproj (GetTargetFrameworks)  (TaskId:0)
+                     | 21                : 0.051s           0.051s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\UltimatePOS.Data.csproj (GetTargetFrameworks)  (TaskId:0)
+                     | 20                : 0.045s           0.045s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\UltimatePOS.Core.csproj (GetTargetFrameworks)  (TaskId:0)
+                     | 25                : 0.262s           0.582s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\UltimatePOS.Services.csproj ()  (TaskId:0)
+                     | | 24              : 0.000s           0.000s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\UltimatePOS.Data.csproj ()  (TaskId:0)
+                     | | 23              : 0.000s           0.000s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\UltimatePOS.Core.csproj ()  (TaskId:0)
+                     | | 29              : 0.001s           0.001s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\UltimatePOS.Data.csproj (GetNativeManifest)  (TaskId:0)
+                     | . 30              : 0.002s           0.002s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\UltimatePOS.Data.csproj (GetCopyToOutputDirectoryItems)  (TaskId:0)
+                     | 24                : 0.203s           0.386s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\UltimatePOS.Data.csproj ()  (TaskId:0)
+                     | | 23              : 0.000s           0.000s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\UltimatePOS.Core.csproj ()  (TaskId:0)
+                     | | 27              : 0.002s           0.002s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\UltimatePOS.Core.csproj (GetNativeManifest)  (TaskId:0)
+                     | . 28              : 0.001s           0.001s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\UltimatePOS.Core.csproj (GetCopyToOutputDirectoryItems)  (TaskId:0)
+                     | 23                : 0.216s           0.216s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\UltimatePOS.Core.csproj ()  (TaskId:0)
+                     | 32                : 0.001s           0.001s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\UltimatePOS.Services.csproj (GetNativeManifest)  (TaskId:0)
+                     . 33                : 0.002s           0.002s       C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\UltimatePOS.Core.csproj (GetTargetPathWithTargetPlatformMoniker)  (TaskId:0)
+                     
+                     ============================== Node Utilization (IDs represent configurations) ====================================================
+                     Timestamp:            1       3       2        Duration   Cumulative
+                     ----------------------------------------------------------------------------------------------------------------------------------- (TaskId:0)
+                     639061490404382024:   0       x       x        0.341s     0.341s ...... (TaskId:0)
+                     639061490407793337:   1       x       x        0.018s     0.359s  (TaskId:0)
+                     639061490407972303:   0       x       x        0.013s     0.372s  (TaskId:0)
+                     639061490408105897:   2       x       x        0.003s     0.375s  (TaskId:0)
+                     639061490408135963:   3       x       x        0.045s     0.421s  (TaskId:0)
+                     639061490408589455:   |       4       5        0.000s     0.421s  (TaskId:0)
+                     639061490408591135:   x       |       |        0.038s     0.459s  (TaskId:0)
+                     639061490408970354:   x       |       x        0.010s     0.468s  (TaskId:0)
+                     639061490409066687:   x       x       5        0.002s     0.471s  (TaskId:0)
+                     639061490409090163:   2       x       x        0.002s     0.473s  (TaskId:0)
+                     639061490409112277:   0       x       x        0.001s     0.474s  (TaskId:0)
+                     639061490409126553:   8       9       10       0.001s     0.475s  (TaskId:0)
+                     639061490409132248:   x       |       |        0.002s     0.477s  (TaskId:0)
+                     639061490409147600:   x       |       x        0.000s     0.477s  (TaskId:0)
+                     639061490409148244:   0       x       x        0.003s     0.480s  (TaskId:0)
+                     639061490409179548:   11      12      13       0.014s     0.493s  (TaskId:0)
+                     639061490409315020:   |       x       |        0.009s     0.503s  (TaskId:0)
+                     639061490409408154:   |       x       x        0.087s     0.590s . (TaskId:0)
+                     639061490410278624:   14      x       x        0.043s     0.633s  (TaskId:0)
+                     639061490410708892:   0       x       x        0.001s     0.634s  (TaskId:0)
+                     639061490410723340:   15      16      17       0.008s     0.642s  (TaskId:0)
+                     639061490410800368:   18      |       |        0.000s     0.642s  (TaskId:0)
+                     639061490410802210:   |       |       x        0.000s     0.642s  (TaskId:0)
+                     639061490410802484:   |       x       x        0.006s     0.648s  (TaskId:0)
+                     639061490410859320:   0       x       x        0.183s     0.830s ... (TaskId:0)
+                     639061490417042081:   x       19      x        0.112s     1.378s .. (TaskId:0)
+                     639061490418160155:   22      21      20       0.045s     1.423s  (TaskId:0)
+                     639061490418607528:   |       |       x        0.007s     1.429s  (TaskId:0)
+                     639061490418675135:   |       x       x        0.166s     1.595s ... (TaskId:0)
+                     639061490420333112:   x       19      x        0.007s     1.602s  (TaskId:0)
+                     639061490420398782:   25      24      23       0.036s     1.638s  (TaskId:0)
+                     639061490420759748:   |       x       |        0.032s     1.670s  (TaskId:0)
+                     639061490421084164:   x       x       |        0.147s     1.818s .. (TaskId:0)
+                     639061490422557682:   x       24      x        0.002s     1.820s  (TaskId:0)
+                     639061490422581243:   x       x       27       0.002s     1.822s  (TaskId:0)
+                     639061490422599435:   x       24      x        0.148s     1.970s .. (TaskId:0)
+                     639061490424081754:   x       x       28       0.001s     1.971s  (TaskId:0)
+                     639061490424095443:   x       24      x        0.017s     1.988s  (TaskId:0)
+                     639061490424263840:   25      x       x        0.003s     1.991s  (TaskId:0)
+                     639061490424292747:   x       29      x        0.001s     1.992s  (TaskId:0)
+                     639061490424304202:   25      x       x        0.175s     2.168s ... (TaskId:0)
+                     639061490426058146:   x       30      x        0.002s     2.169s  (TaskId:0)
+                     639061490426073575:   25      x       x        0.015s     2.184s  (TaskId:0)
+                     639061490426221992:   x       19      x        0.004s     2.188s  (TaskId:0)
+                     639061490426265105:   32      x       x        0.001s     2.190s  (TaskId:0)
+                     639061490426278041:   x       19      x        0.003s     2.192s  (TaskId:0)
+                     639061490426303666:   x       x       33       0.002s     2.194s  (TaskId:0)
+                     639061490426322884:   x       19      x        2.107s     4.302s .......................................... (TaskId:0)
+                     -----------------------------------------------------------------------------------------------------------------------------------
+                     Utilization:          29.3    66.0    8.7      Average Utilization: 34.7 (TaskId:0)
+
+Project Evaluation Performance Summary:
+       59 ms  C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\UltimatePOS.Core.csproj   2 calls
+       77 ms  C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\UltimatePOS.Data.csproj   2 calls
+      237 ms  C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\UltimatePOS.Services.csproj   2 calls
+      370 ms  C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\UltimatePOS.WinUI.csproj   3 calls
+
+Project Performance Summary:
+      215 ms  C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\UltimatePOS.Core.csproj  18 calls
+                  5 ms  _GenerateRestoreProjectPathWalk            3 calls
+                  0 ms  _IsProjectRestoreSupported                 1 calls
+                109 ms  _GenerateRestoreGraphProjectEntry          1 calls
+                  7 ms  _GenerateProjectRestoreGraph               1 calls
+                  1 ms  GetTargetFrameworks                        3 calls
+                  0 ms  GetNativeManifest                          3 calls
+                  0 ms  GetCopyToOutputDirectoryItems              2 calls
+                  0 ms  GetTargetPathWithTargetPlatformMoniker     1 calls
+      404 ms  C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\UltimatePOS.Data.csproj  13 calls
+                  7 ms  _GenerateRestoreProjectPathWalk            2 calls
+                  0 ms  _IsProjectRestoreSupported                 1 calls
+                 12 ms  _GenerateRestoreGraphProjectEntry          1 calls
+                  3 ms  _GenerateProjectRestoreGraph               1 calls
+                  2 ms  GetTargetFrameworks                        2 calls
+                  0 ms  GetNativeManifest                          2 calls
+                  0 ms  GetCopyToOutputDirectoryItems              1 calls
+                  0 ms  GetTargetPathWithTargetPlatformMoniker     1 calls
+      625 ms  C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\UltimatePOS.Services.csproj   8 calls
+                 18 ms  _GenerateRestoreProjectPathWalk            1 calls
+                  0 ms  _IsProjectRestoreSupported                 1 calls
+                 19 ms  _GenerateRestoreGraphProjectEntry          1 calls
+                  3 ms  _GenerateProjectRestoreGraph               1 calls
+                  3 ms  GetTargetFrameworks                        1 calls
+                  1 ms  GetNativeManifest                          1 calls
+                  0 ms  GetTargetPathWithTargetPlatformMoniker     1 calls
+     3637 ms  C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\UltimatePOS.WinUI.csproj   7 calls
+                517 ms  Restore                                    1 calls
+                  2 ms  _IsProjectRestoreSupported                 2 calls
+                100 ms  _GenerateRestoreProjectPathWalk            1 calls
+                 43 ms  _GenerateRestoreGraphProjectEntry          1 calls
+                  6 ms  _GenerateProjectRestoreGraph               1 calls
+
+Target Performance Summary:
+        0 ms  BeforeCompile                              3 calls
+        0 ms  InitializeSourceControlInformation         3 calls
+        0 ms  _InitializeSourceRootMappedPathsFromSourceControl   3 calls
+        0 ms  BeforeResGen                               3 calls
+        0 ms  PrepareResourceNames                       3 calls
+        0 ms  BeforeBuild                                4 calls
+        0 ms  ResGen                                     3 calls
+        0 ms  AfterResGen                                3 calls
+        0 ms  GenerateAssemblyInfo                       3 calls
+        0 ms  _CollectRestoreInputs                      4 calls
+        0 ms  _InitializeSourceRootMappedPathsOpt        3 calls
+        0 ms  Compile                                    3 calls
+        0 ms  _InitializeSourceControlInformationFromSourceControlManager   3 calls
+        0 ms  ResolvePackageDependenciesForBuild         4 calls
+        0 ms  CreateCustomManifestResourceNames          3 calls
+        0 ms  _UpdatePriIndex                            1 calls
+        0 ms  SetWin32ManifestProperties                 3 calls
+        0 ms  GenerateSourceLinkFile                     3 calls
+        0 ms  _CopySourceItemsToOutputDirectory          3 calls
+        0 ms  GetReferenceAssemblyPaths                  4 calls
+        0 ms  CreateSatelliteAssemblies                  3 calls
+        0 ms  _SetEmbeddedFilesFromSourceControlManagerUntrackedFiles   3 calls
+        0 ms  CoreBuild                                  3 calls
+        0 ms  PrepareResources                           3 calls
+        0 ms  _CheckForSupportedOSPlatformVersionHigherThanTargetPlatformVersion   1 calls
+        0 ms  GetVCInstallPath                           1 calls
+        0 ms  AfterCompile                               3 calls
+        0 ms  PrepareForRun                              3 calls
+        0 ms  AfterBuild                                 3 calls
+        0 ms  GetPrecompiledHeaderFile                   1 calls
+        0 ms  GenerateMSBuildEditorConfigFile            3 calls
+        0 ms  _GetRestoreSettingsCurrentProject          4 calls
+        0 ms  GetFrameworkPaths                          4 calls
+        0 ms  PrepareProjectReferences                   4 calls
+        0 ms  _CheckRIDAsserts                           1 calls
+        0 ms  _GenerateProjectRestoreGraph               4 calls
+        0 ms  _CalculatePrepareMsixPackage               1 calls
+        0 ms  _GenerateRestoreDependencies               4 calls
+        0 ms  ValidateCommandLineProperties              4 calls
+        0 ms  GetPriIndexName                            1 calls
+        0 ms  BeforeResolveReferences                    4 calls
+        0 ms  RemoveManagedWinRTComponentWinMDReferences   1 calls
+        0 ms  _CheckForUnsupportedAppHostUsage           1 calls
+        0 ms  AfterResolveReferences                     4 calls
+        0 ms  _Microsoft_Extensions_Configuration_Binder_RemoveAnalyzer   1 calls
+        0 ms  _GenerateProjectRestoreGraphCurrentProject   4 calls
+        0 ms  _GenerateRestoreGraphProjectEntry          4 calls
+        0 ms  _CheckForInvalidTargetPlatformVersion      1 calls
+        0 ms  _CheckForUnsupportedArtifactsPath          4 calls
+        0 ms  _AddOutputPathToGlobalPropertiesToRemove   4 calls
+        0 ms  Build                                      3 calls
+        0 ms  _GenerateRestoreProjectPathItemsCurrentProject   4 calls
+        0 ms  _UpdateMuiFilesAfterNugetRestore           1 calls
+        0 ms  _ValidateWindowsPackageType                1 calls
+        0 ms  IncludeTransitiveProjectReferences         4 calls
+        0 ms  _CheckForUnsupportedHostingUsage           4 calls
+        0 ms  _SetSourceLinkFilePath                     3 calls
+        0 ms  CheckForDuplicatePriItems                  1 calls
+        0 ms  EnableIntermediateOutputPathMismatchWarning   4 calls
+        0 ms  ExpandSDKReferences                        4 calls
+        0 ms  _ComputeNETCoreBuildOutputFiles            3 calls
+        0 ms  _DefaultMicrosoftNETPlatformLibrary        4 calls
+        0 ms  CheckForDuplicatePageItems                 1 calls
+        0 ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   3 calls
+        0 ms  _SetTargetFrameworkMonikerAttribute        3 calls
+        0 ms  _BeforeVBCSCoreCompile                     3 calls
+        0 ms  _CheckAndUnsetUnsupportedPrefer32Bit       4 calls
+        0 ms  GenerateTargetPlatformDefineConstants      1 calls
+        0 ms  _GetRestoreTargetFrameworkOverride         4 calls
+        0 ms  ResolveSDKReferences                       4 calls
+        0 ms  NETStandardCompatError_Microsoft_Extensions_Configuration_Binder   1 calls
+        0 ms  _GetRestoreSettingsOverrides               4 calls
+        0 ms  ResolveLockFileAnalyzers                   4 calls
+        0 ms  AddSourceRevisionToInformationalVersion    3 calls
+        0 ms  CopyAdditionalFiles                        3 calls
+        0 ms  IgnoreJavaScriptOutputAssembly             4 calls
+        0 ms  BuildOnlySettings                          4 calls
+        0 ms  CalculateAppxGenerateProjectPriEnabled     1 calls
+        0 ms  _CheckForUnsupportedCppNETCoreVersion      9 calls
+        0 ms  _GetRestoreSettingsPerFramework            4 calls
+        0 ms  _CalculateIsVSTestTestProject              4 calls
+        0 ms  _CheckForObsoleteDotNetCliToolReferences   8 calls
+        0 ms  AddImplicitDefineConstants                 4 calls
+        0 ms  _CheckForLanguageAndFeatureCombinationSupport   8 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           3 calls
+        0 ms  _ComputePackageReferencePublish            4 calls
+        0 ms  GenerateMSBuildEditorConfigFileShouldRun   3 calls
+        0 ms  GetTargetPathWithTargetPlatformMoniker     3 calls
+        0 ms  _CheckForUnsupportedTargetPlatformIdentifier   2 calls
+        0 ms  CollectFrameworkReferences                 4 calls
+        0 ms  ResolveReferences                          4 calls
+        0 ms  SourceControlManagerPublishTranslatedUrls   3 calls
+        0 ms  _IsProjectRestoreSupported                 4 calls
+        0 ms  MVVMToolkitGatherAnalyzers                 4 calls
+        0 ms  _GenerateCompileInputs                     3 calls
+        0 ms  _CheckContainersPackage                    3 calls
+        0 ms  CoreResGen                                 3 calls
+        0 ms  CollectNuGetAuditSuppressions              4 calls
+        0 ms  CollectPrunePackageReferences              4 calls
+        0 ms  GetAssemblyAttributes                      3 calls
+        1 ms  GeneratePlatformCompatibleDefineConstants   1 calls
+        1 ms  _GetCopyToOutputDirectoryItemsFromThisProject   3 calls
+        1 ms  GenerateTargetFrameworkMonikerAttribute    3 calls
+        1 ms  GenerateBuildRuntimeConfigurationFiles     1 calls
+        1 ms  CollectCentralPackageVersions              4 calls
+        1 ms  _CheckForUnsupportedNETCoreVersion         9 calls
+        1 ms  GetNativeManifest                          3 calls
+        1 ms  _ComputeUserRuntimeAssemblies              3 calls
+        1 ms  _GenerateRestoreSpecs                      4 calls
+        1 ms  WindowsAppSDKVerifyWinrtRuntimeVersion     1 calls
+        1 ms  GenerateTargetFrameworkDefineConstants     4 calls
+        1 ms  ResolveLockFileCopyLocalFiles              4 calls
+        1 ms  GetAssemblyVersion                         3 calls
+        1 ms  _GenerateRuntimeConfigurationFilesInputCache   1 calls
+        1 ms  _CheckForInvalidConfigurationAndPlatform   4 calls
+        1 ms  CoreGenerateAssemblyInfo                   3 calls
+        1 ms  FindInvalidProjectReferences               1 calls
+        1 ms  _NormalizeTargetPlatformVersion            2 calls
+        1 ms  _SplitProjectReferencesByFileExistence     4 calls
+        1 ms  _CleanRecordFileWrites                     1 calls
+        1 ms  AddGlobalAnalyzerConfigForPackage_MicrosoftCodeAnalysisCSharpCodeStyle   3 calls
+        1 ms  SplitResourcesByCulture                    3 calls
+        1 ms  _CheckForCompileOutputs                    4 calls
+        2 ms  _GenerateRestoreProjectPathItems           4 calls
+        2 ms  GetTargetFrameworks                        3 calls
+        2 ms  ValidateExecutableReferences               4 calls
+        2 ms  AddGlobalAnalyzerConfigForPackage_MicrosoftCodeAnalysisNetAnalyzers   3 calls
+        2 ms  InitializeSourceRootMappedPaths            3 calls
+        2 ms  IncrementalClean                           3 calls
+        2 ms  _GenerateRestoreProjectSpec                4 calls
+        2 ms  _BlockWinMDsOnUnsupportedTFMs              4 calls
+        2 ms  CollectPackageDownloads                    4 calls
+        2 ms  ResolveRuntimePackAssets                   1 calls
+        2 ms  AssignTargetPaths                          3 calls
+        2 ms  _ComputeReferenceAssemblies                3 calls
+        2 ms  _GenerateDotnetCliToolReferenceSpecs       4 calls
+        3 ms  AssignProjectConfiguration                 3 calls
+        3 ms  _InitializeBitbucketGitSourceLinkUrl       9 calls
+        3 ms  GenerateBuildDependencyFile                3 calls
+        3 ms  _InitializeAzureReposGitSourceLinkUrl      9 calls
+        3 ms  _SetEmbeddedWin32ManifestProperties        3 calls
+        3 ms  GenerateNETCompatibleDefineConstants       4 calls
+        3 ms  ResolveOffByDefaultAnalyzers               4 calls
+        4 ms  _GetRestoreTargetFrameworksOutput          4 calls
+        4 ms  ResolveLockFileReferences                  4 calls
+        4 ms  GetTargetFrameworksWithPlatformForSingleTargetFramework   3 calls
+        4 ms  CollectPackageReferences                   8 calls
+        4 ms  _GetRestoreProjectStyle                    8 calls
+        4 ms  _GenerateCompileDependencyCache            3 calls
+        4 ms  _CollectTargetFrameworkForTelemetry        5 calls
+        4 ms  CreateGeneratedAssemblyInfoInputsCacheFile   3 calls
+        4 ms  GetReferenceTargetPlatformMonikers         1 calls
+        5 ms  ApplyImplicitVersions                      8 calls
+        5 ms  _CopyFilesMarkedCopyLocal                  2 calls
+        5 ms  MVVMToolkitRemoveAnalyzersForRoslyn3       4 calls
+        5 ms  CheckForDuplicateItems                     4 calls
+        5 ms  _LoadRestoreGraphEntryPoints               1 calls
+        5 ms  PrepareForBuild                            4 calls
+        5 ms  _GenerateSourceLinkFile                    3 calls
+        6 ms  _SourceLinkHasSingleProvider               3 calls
+        6 ms  TranslateAzureReposGitUrlsInSourceControlInformation   3 calls
+        6 ms  TranslateGitLabUrlsInSourceControlInformation   3 calls
+        6 ms  _GenerateRestoreProjectPathItemsPerFramework   4 calls
+        6 ms  _ComputeSkipAnalyzers                      3 calls
+        7 ms  _InitializeGitLabSourceLinkUrl             9 calls
+        7 ms  _ComputeToolPackInputsToProcessFrameworkReferences   8 calls
+        8 ms  TranslateBitbucketGitUrlsInSourceControlInformation   3 calls
+        8 ms  TranslateGitHubUrlsInSourceControlInformation   3 calls
+        8 ms  _GenerateProjectRestoreGraphPerFramework   4 calls
+        8 ms  _InitializeGitHubSourceLinkUrl             9 calls
+        8 ms  GenerateMSBuildEditorConfigFileCore        3 calls
+        8 ms  CopyFilesToOutputDirectory                 3 calls
+        9 ms  GenerateGlobalUsings                       3 calls
+        9 ms  UpdateAspNetToFrameworkReference           8 calls
+       10 ms  AddWindowsSdkKnownFrameworkReferences      2 calls
+       10 ms  _CleanGetCurrentAndPriorFileWrites         4 calls
+       11 ms  CheckForImplicitPackageReferenceOverrides   8 calls
+       11 ms  SetEmbeddedFilesFromSourceControlManagerUntrackedFiles   3 calls
+       12 ms  CoreCompile                                3 calls
+       12 ms  ResolveFrameworkReferences                 4 calls
+       12 ms  GetTargetPath                              3 calls
+       13 ms  ResolvePackageAssets                       4 calls
+       16 ms  FindReferenceAssembliesForReferences       3 calls
+       23 ms  ResolveTargetingPackAssets                 4 calls
+       33 ms  InitializeSourceControlInformationFromSourceControlManager   3 calls
+       46 ms  _HandlePackageFileConflicts                4 calls
+       47 ms  _FilterRestoreGraphProjectInputItems       1 calls
+       61 ms  _GetRestoreSettings                        4 calls
+       78 ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   3 calls
+       83 ms  GetCopyToOutputDirectoryItems              3 calls
+       98 ms  ProcessFrameworkReferences                 8 calls
+      105 ms  ResolveAssemblyReferences                  4 calls
+      107 ms  _GetAllRestoreProjectPathItems             1 calls
+      120 ms  _GenerateRestoreProjectPathWalk            4 calls
+      171 ms  _GenerateRestoreGraph                      1 calls
+      181 ms  Restore                                    1 calls
+      264 ms  _GetProjectReferenceTargetFrameworkProperties   4 calls
+     1102 ms  ResolveProjectReferences                   4 calls
+     2028 ms  MarkupCompilePass1                         1 calls
+
+Task Performance Summary:
+        0 ms  Delete                                     3 calls
+        0 ms  AssignCulture                              3 calls
+        0 ms  SetRidAgnosticValueForProjects             4 calls
+        0 ms  GetRestoreNuGetAuditSuppressionsTask       4 calls
+        1 ms  GetRestorePrunePackageReferencesTask       4 calls
+        1 ms  FindAppConfigFile                          4 calls
+        1 ms  GetRestoreFrameworkReferencesTask          4 calls
+        1 ms  GetAssemblyVersion                         3 calls
+        1 ms  GetRestorePackageDownloadsTask             4 calls
+        1 ms  NuGetMessageTask                           1 calls
+        1 ms  CheckForUnsupportedWinMDReferences         4 calls
+        1 ms  CombineXmlElements                         3 calls
+        1 ms  GetRestorePackageReferencesTask            4 calls
+        1 ms  GetRestoreProjectReferencesTask            4 calls
+        1 ms  FindInvalidProjectReferences               1 calls
+        1 ms  Microsoft.CodeAnalysis.BuildTasks.MapSourceRoots   3 calls
+        1 ms  AssignProjectConfiguration                 3 calls
+        1 ms  ResolveFrameworkReferences                 4 calls
+        1 ms  ValidateExecutableReferences               4 calls
+        1 ms  GetRestoreDotnetCliToolsTask               4 calls
+        2 ms  AssignTargetPath                          18 calls
+        2 ms  Hash                                       7 calls
+        2 ms  WarnForInvalidProjectsTask                 1 calls
+        2 ms  GetFrameworkPath                           3 calls
+        2 ms  ResolveRuntimePackAssets                   1 calls
+        2 ms  AllowEmptyTelemetry                        5 calls
+        2 ms  Microsoft.SourceLink.Bitbucket.Git.GetSourceLinkUrl   9 calls
+        2 ms  Microsoft.SourceLink.AzureRepos.Git.GetSourceLinkUrl   9 calls
+        2 ms  FindUnderPath                             18 calls
+        2 ms  JoinItems                                  4 calls
+        2 ms  CombineTargetFrameworkInfoProperties       3 calls
+        2 ms  InputSerializer                            1 calls
+        2 ms  CheckForDuplicateFrameworkReferences       8 calls
+        2 ms  Message                                   20 calls
+        2 ms  GetProjectTargetFrameworksTask             4 calls
+        2 ms  Microsoft.SourceLink.Common.SourceLinkHasSingleProvider   3 calls
+        3 ms  CopyRefAssembly                            3 calls
+        3 ms  ApplyImplicitVersions                      8 calls
+        3 ms  GetRestoreProjectStyleTask                 8 calls
+        3 ms  ReadLinesFromFile                          4 calls
+        3 ms  GenerateMSBuildEditorConfig                3 calls
+        4 ms  Microsoft.SourceLink.GitLab.TranslateRepositoryUrls   3 calls
+        4 ms  Microsoft.SourceLink.AzureRepos.Git.TranslateRepositoryUrls   3 calls
+        4 ms  GetAssemblyIdentity                        4 calls
+        4 ms  ConvertToAbsolutePath                     12 calls
+        4 ms  CheckIfPackageReferenceShouldBeFrameworkReference  16 calls
+        4 ms  MakeDir                                    6 calls
+        4 ms  RemoveDuplicates                          19 calls
+        4 ms  Microsoft.SourceLink.Bitbucket.Git.TranslateRepositoryUrls   3 calls
+        4 ms  CheckForDuplicateItems                    14 calls
+        5 ms  GetReferenceNearestTargetFrameworkTask     3 calls
+        5 ms  Microsoft.SourceLink.GitHub.TranslateRepositoryUrls   3 calls
+        5 ms  Microsoft.SourceLink.Common.GenerateSourceLinkFile   3 calls
+        5 ms  CheckForDuplicateNuGetItemsTask           24 calls
+        5 ms  GenerateGlobalUsings                       3 calls
+        6 ms  Microsoft.SourceLink.GitLab.GetSourceLinkUrl   9 calls
+        6 ms  ResolveAppHosts                            8 calls
+        7 ms  Microsoft.SourceLink.GitHub.GetSourceLinkUrl   9 calls
+        7 ms  Copy                                       8 calls
+        8 ms  GetPackageDirectory                       40 calls
+        8 ms  ResolveTargetingPackAssets                 4 calls
+        9 ms  WriteLinesToFile                          11 calls
+        9 ms  CreateWindowsSdkKnownFrameworkReferences   2 calls
+        9 ms  CheckForImplicitPackageReferenceOverrides   8 calls
+       11 ms  Microsoft.Build.Tasks.Git.GetUntrackedFiles   3 calls
+       11 ms  ResolvePackageAssets                       4 calls
+       31 ms  Microsoft.Build.Tasks.Git.LocateRepository   3 calls
+       41 ms  ResolvePackageFileConflicts                4 calls
+       61 ms  GetRestoreSettingsTask                     4 calls
+       82 ms  CallTarget                                 6 calls
+       83 ms  ProcessFrameworkReferences                 8 calls
+      103 ms  ResolveAssemblyReference                   4 calls
+      180 ms  RestoreTask                                1 calls
+     1858 ms  MSBuild                                   22 calls
+     2025 ms  Exec                                       1 calls
+
+Build FAILED.
+
+                   "C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\UltimatePOS.WinUI.csproj" (default target) (1:7) ->
+                   (MarkupCompilePass1 target) -> 
+                     C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\buildTransitive\Microsoft.UI.Xaml.Markup.Compiler.interop.targets(590,9): error MSB3073: The command ""C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\buildTransitive\..\tools\net6.0\..\net472\XamlCompiler.exe" "obj\Debug\net8.0-windows10.0.19041.0\\input.json" "obj\Debug\net8.0-windows10.0.19041.0\\output.json"" exited with code 1. [C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\UltimatePOS.WinUI.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:07.77

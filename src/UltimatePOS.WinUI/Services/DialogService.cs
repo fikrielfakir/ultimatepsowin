@@ -136,4 +136,12 @@ public class DialogService : IDialogService
         await dialog.ViewModel.InitializeAsync(locationId);
         await dialog.ShowAsync();
     }
+
+    public async Task ShowStockTakeDialogAsync(int? stockTakeId = null, int? locationId = null)
+    {
+        var dialog = new StockTakeDialog();
+        dialog.XamlRoot = App.CurrentWindow?.Content?.XamlRoot;
+        await dialog.ViewModel.InitializeAsync(stockTakeId, locationId);
+        await dialog.ShowAsync();
+    }
 }

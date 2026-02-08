@@ -12,6 +12,7 @@ public partial class StockListViewModel : ObservableObject
     private readonly IStockService _stockService;
     private readonly ILocationService _locationService;
     private readonly IDialogService _dialogService;
+    private readonly ISessionService _sessionService;
 
     [ObservableProperty]
     private ObservableCollection<ProductStock> _stocks = new();
@@ -28,14 +29,22 @@ public partial class StockListViewModel : ObservableObject
     [ObservableProperty]
     private bool _showLowStockOnly;
 
+    [ObservableProperty]
+    private ObservableCollection<StockTake> _stockTakes = new();
+
+    [ObservableProperty]
+    private bool _isStockTakesTabSelected;
+
     public StockListViewModel(
         IStockService stockService,
         ILocationService locationService,
-        IDialogService dialogService)
+        IDialogService dialogService,
+        ISessionService sessionService)
     {
         _stockService = stockService;
         _locationService = locationService;
         _dialogService = dialogService;
+        _sessionService = sessionService;
     }
 
     [RelayCommand]
@@ -44,8 +53,15 @@ public partial class StockListViewModel : ObservableObject
         IsLoading = true;
         try
         {
+            var businessId = _sessionService.CurrentBusiness?.Id;
+            if (businessId == null)
+            {
+                await _dialogService.ShowErrorAsync("Error", "No active business session found.");
+                return;
+            }
+
             // Load locations
-            var locations = await _locationService.GetLocationsByBusinessIdAsync(1); // TODO: Get current business ID
+            var locations = await _locationService.GetLocationsByBusinessIdAsync(businessId.Value);
             Locations.Clear();
             foreach (var loc in locations)
             {
@@ -57,7 +73,18 @@ public partial class StockListViewModel : ObservableObject
                 SelectedLocation = Locations[0];
             }
 
-            await LoadStocksAsync();
+            if (IsStockTakesTabSelected)
+            {
+                await LoadStockTakesAsync();
+            }
+            else
+            {
+                await LoadStocksAsync();
+            }
+        }
+        catch (Exception ex)
+        {
+            await _dialogService.ShowErrorAsync("Error", $"Failed to load data: {ex.Message}");
         }
         finally
         {
@@ -87,6 +114,27 @@ public partial class StockListViewModel : ObservableObject
             foreach (var stock in result)
             {
                 Stocks.Add(stock);
+            }
+        }
+        finally
+        {
+            IsLoading = false;
+        }
+    }
+
+    [RelayCommand]
+    public async Task LoadStockTakesAsync()
+    {
+        if (SelectedLocation == null) return;
+
+        IsLoading = true;
+        try
+        {
+            var result = await _stockService.GetStockTakesAsync(SelectedLocation.Id);
+            StockTakes.Clear();
+            foreach (var st in result)
+            {
+                StockTakes.Add(st);
             }
         }
         finally
@@ -127,16 +175,53 @@ public partial class StockListViewModel : ObservableObject
         await LoadStocksAsync();
     }
 
+    [RelayCommand]
+    public async Task NewStockTakeAsync()
+    {
+        await _dialogService.ShowStockTakeDialogAsync(null, SelectedLocation?.Id);
+        await LoadStockTakesAsync();
+    }
+
+    [RelayCommand]
+    public async Task OpenStockTakeAsync(StockTake? stockTake)
+    {
+        if (stockTake == null) return;
+        await _dialogService.ShowStockTakeDialogAsync(stockTake.Id);
+        await LoadStockTakesAsync();
+    }
+
     partial void OnSelectedLocationChanged(Location? value)
     {
         if (value != null)
         {
-            _ = LoadStocksAsync();
+            if (IsStockTakesTabSelected)
+            {
+                _ = LoadStockTakesAsync();
+            }
+            else
+            {
+                _ = LoadStocksAsync();
+            }
         }
     }
 
     partial void OnShowLowStockOnlyChanged(bool value)
     {
-        _ = LoadStocksAsync();
+        if (!IsStockTakesTabSelected)
+        {
+            _ = LoadStocksAsync();
+        }
+    }
+
+    partial void OnIsStockTakesTabSelectedChanged(bool value)
+    {
+        if (value)
+        {
+            _ = LoadStockTakesAsync();
+        }
+        else
+        {
+            _ = LoadStocksAsync();
+        }
     }
 }

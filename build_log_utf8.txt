@@ -1,0 +1,16 @@
+﻿  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UltimatePOS.Tests -> C:\Users\fikri\Desktop\ultimateposwind\tests\UltimatePOS.Tests\bin\Debug\net8.0\UltimatePOS.Tests.dll
+  UltimatePOS.Core -> C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Core\bin\Debug\net8.0\UltimatePOS.Core.dll
+  UltimatePOS.Data -> C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Data\bin\Debug\net8.0\UltimatePOS.Data.dll
+  UltimatePOS.Migrator -> C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Migrator\bin\Debug\net8.0\UltimatePOS.Migrator.dll
+  UltimatePOS.Services -> C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.Services\bin\Debug\net8.0\UltimatePOS.Services.dll
+C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\buildTransitive\Microsoft.UI.Xaml.Markup.Compiler.interop.targets(590,9): error MSB3073: The command ""C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\buildTransitive\..\tools\net6.0\..\net472\XamlCompiler.exe" "obj\x86\Debug\net8.0-windows10.0.19041.0\\input.json" "obj\x86\Debug\net8.0-windows10.0.19041.0\\output.json"" exited with code 1. [C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\UltimatePOS.WinUI.csproj]
+
+Build FAILED.
+
+C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\buildTransitive\Microsoft.UI.Xaml.Markup.Compiler.interop.targets(590,9): error MSB3073: The command ""C:\Users\fikri\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\buildTransitive\..\tools\net6.0\..\net472\XamlCompiler.exe" "obj\x86\Debug\net8.0-windows10.0.19041.0\\input.json" "obj\x86\Debug\net8.0-windows10.0.19041.0\\output.json"" exited with code 1. [C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\UltimatePOS.WinUI.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:03.46

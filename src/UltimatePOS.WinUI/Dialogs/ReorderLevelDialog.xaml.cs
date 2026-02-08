@@ -11,7 +11,7 @@ public sealed partial class ReorderLevelDialog : ContentDialog
     public ReorderLevelDialog()
     {
         this.InitializeComponent();
-        ViewModel = ((App)Microsoft.UI.Xaml.Application.Current).Services.GetService<ReorderLevelViewModel>();
+        ViewModel = App.GetService<ReorderLevelViewModel>();
     }
 
     private void OnAlertQuantityChanged(NumberBox sender, NumberBoxValueChangedEventArgs args)

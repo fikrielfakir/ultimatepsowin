@@ -1,0 +1,1 @@
+C:\Users\fikri\Desktop\ultimateposwind\src\UltimatePOS.WinUI\obj\x86\Debug\net8.0-windows10.0.19041.0\UltimatePOS.WinUI.csproj.AssemblyReference.cache

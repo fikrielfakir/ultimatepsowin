@@ -54,4 +54,9 @@ public interface IProductService
     /// Get all units
     /// </summary>
     Task<IEnumerable<Unit>> GetUnitsAsync();
+
+    /// <summary>
+    /// Get all products for a specific business
+    /// </summary>
+    Task<IEnumerable<Product>> GetProductsByBusinessIdAsync(int businessId);
 }

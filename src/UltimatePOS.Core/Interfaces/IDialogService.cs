@@ -67,4 +67,9 @@ public interface IDialogService
     /// Show the reorder level management dialog
     /// </summary>
     Task ShowReorderLevelDialogAsync(int? locationId = null);
+
+    /// <summary>
+    /// Show the stock take dialog
+    /// </summary>
+    Task ShowStockTakeDialogAsync(int? stockTakeId = null, int? locationId = null);
 }

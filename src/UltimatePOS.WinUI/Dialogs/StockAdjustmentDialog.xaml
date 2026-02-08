@@ -10,10 +10,10 @@
     mc:Ignorable="d"
     Title="Adjust Stock"
     PrimaryButtonText="Save"
-    PrimaryButtonCommand="{x:Bind ViewModel.SaveCommand}"
     CloseButtonText="Cancel"
     DefaultButton="Primary"
     Style="{StaticResource DefaultContentDialogStyle}">
+
 
     <StackPanel Spacing="16" MinWidth="350">
         <!-- Product Info -->

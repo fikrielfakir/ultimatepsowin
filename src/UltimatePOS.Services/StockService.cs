@@ -248,7 +248,7 @@ public class StockService : IStockService
 
     public async Task<IEnumerable<StockTake>> GetStockTakesAsync(int? locationId = null, DateTime? fromDate = null, DateTime? toDate = null)
     {
-        var query = _unitOfWork.StockTakes.Query()
+        IQueryable<StockTake> query = _unitOfWork.StockTakes.Query()
             .Include(st => st.Location);
 
         if (locationId.HasValue)

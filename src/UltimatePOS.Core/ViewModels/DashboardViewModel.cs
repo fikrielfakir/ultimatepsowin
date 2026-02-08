@@ -40,7 +40,7 @@ public partial class DashboardViewModel : ObservableObject
     [RelayCommand]
     private void NavigateToProducts()
     {
-        _navigationService.NavigateTo(typeof(Product.ProductListViewModel).Name);
+        _navigationService.NavigateTo(typeof(Products.ProductListViewModel).Name);
     }
 
     [RelayCommand]

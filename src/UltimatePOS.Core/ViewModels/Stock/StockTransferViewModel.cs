@@ -14,6 +14,7 @@ public partial class StockTransferViewModel : ObservableObject
     private readonly ILocationService _locationService;
     private readonly IProductService _productService;
     private readonly ISessionService _sessionService;
+    private readonly IDialogService _dialogService;
 
     [ObservableProperty]
     private Entities.Product? _selectedProduct;
@@ -31,24 +32,36 @@ public partial class StockTransferViewModel : ObservableObject
     private string? _reference;
 
     [ObservableProperty]
+    private bool _isTransferSuccessful;
+
+    [ObservableProperty]
     private ObservableCollection<Location> _locations = new();
 
     public StockTransferViewModel(
         IStockService stockService,
         ILocationService locationService,
         IProductService productService,
-        ISessionService sessionService)
+        ISessionService sessionService,
+        IDialogService dialogService)
     {
         _stockService = stockService;
         _locationService = locationService;
         _productService = productService;
         _sessionService = sessionService;
+        _dialogService = dialogService;
     }
     
     public async Task InitializeAsync()
     {
+        var businessId = _sessionService.CurrentBusiness?.Id;
+        if (businessId == null)
+        {
+            await _dialogService.ShowErrorAsync("Error", "No active business session found.");
+            return;
+        }
+
         // Load locations
-        var locations = await _locationService.GetLocationsByBusinessIdAsync(1); // TODO: Use business id
+        var locations = await _locationService.GetLocationsByBusinessIdAsync(businessId.Value);
         Locations.Clear();
         foreach (var loc in locations)
         {
@@ -71,18 +84,34 @@ public partial class StockTransferViewModel : ObservableObject
     }
 
     [RelayCommand]
-    public async Task TransferAsync()
+    public async Task<bool> TransferAsync()
     {
-        if (SelectedProduct == null || SourceLocation == null || DestinationLocation == null || Quantity <= 0)
+        if (SelectedProduct == null)
         {
-            return;
+            await _dialogService.ShowWarningAsync("Validation Error", "Please select a product.");
+            IsTransferSuccessful = false;
+            return false;
+        }
+
+        if (SourceLocation == null || DestinationLocation == null)
+        {
+            await _dialogService.ShowWarningAsync("Validation Error", "Please select source and destination locations.");
+            IsTransferSuccessful = false;
+            return false;
+        }
+
+        if (Quantity <= 0)
+        {
+            await _dialogService.ShowWarningAsync("Validation Error", "Quantity must be greater than zero.");
+            IsTransferSuccessful = false;
+            return false;
         }
 
         if (SourceLocation.Id == DestinationLocation.Id)
         {
-            // TODO: correct way to show error via dialog service?
-            // For now assuming validation happens in UI or service throws
-            return;
+            await _dialogService.ShowWarningAsync("Validation Error", "Source and destination locations cannot be the same.");
+            IsTransferSuccessful = false;
+            return false;
         }
 
         try
@@ -95,11 +124,15 @@ public partial class StockTransferViewModel : ObservableObject
                 Reference
             );
             
-            // Close dialog handled by view code-behind
+            await _dialogService.ShowMessageAsync("Success", "Stock transfer completed successfully.");
+            IsTransferSuccessful = true;
+            return true;
         }
         catch (System.Exception ex)
         {
-            // TODO: Handle error
+            await _dialogService.ShowErrorAsync("Transfer Failed", $"Error transferring stock: {ex.Message}");
+            IsTransferSuccessful = false;
+            return false;
         }
     }
 }

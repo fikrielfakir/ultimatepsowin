@@ -1,5 +1,5 @@
-&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;ContentDialog
+<?xml version="1.0" encoding="utf-8"?>
+<ContentDialog
     x:Class="UltimatePOS.WinUI.Dialogs.StockHistoryDialog"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -13,98 +13,98 @@
     Title="Stock History"
     CloseButtonText="Close"
     DefaultButton="Close"
-    Style="{StaticResource DefaultContentDialogStyle}"&gt;
+    Style="{StaticResource DefaultContentDialogStyle}">
 
-    &lt;ContentDialog.Resources&gt;
-        &lt;converters:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/&gt;
-    &lt;/ContentDialog.Resources&gt;
+    <ContentDialog.Resources>
+        <converters:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    </ContentDialog.Resources>
 
-    &lt;Grid MinWidth="700" MinHeight="500"&gt;
-        &lt;Grid.RowDefinitions&gt;
-            &lt;RowDefinition Height="Auto"/&gt;
-            &lt;RowDefinition Height="Auto"/&gt;
-            &lt;RowDefinition Height="*"/&gt;
-        &lt;/Grid.RowDefinitions&gt;
+    <Grid MinWidth="700" MinHeight="500">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-        &lt;!-- Product Info --&gt;
-        &lt;StackPanel Grid.Row="0" Spacing="4" Margin="0,0,0,16"&gt;
-            &lt;TextBlock Text="{x:Bind ViewModel.SelectedProduct.Name, Mode=OneWay}" 
-                       Style="{StaticResource SubtitleTextBlockStyle}"/&gt;
-            &lt;TextBlock Text="{x:Bind ViewModel.SelectedProduct.SKU, Mode=OneWay}" 
+        <!-- Product Info -->
+        <StackPanel Grid.Row="0" Spacing="4" Margin="0,0,0,16">
+            <TextBlock Text="{x:Bind ViewModel.SelectedProduct.Name, Mode=OneWay}" 
+                       Style="{StaticResource SubtitleTextBlockStyle}"/>
+            <TextBlock Text="{x:Bind ViewModel.SelectedProduct.SKU, Mode=OneWay}" 
                        Style="{StaticResource CaptionTextBlockStyle}" 
-                       Foreground="{ThemeResource TextFillColorSecondaryBrush}"/&gt;
-        &lt;/StackPanel&gt;
+                       Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+        </StackPanel>
 
-        &lt;!-- Date Filters --&gt;
-        &lt;StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="16" Margin="0,0,0,16"&gt;
-            &lt;CalendarDatePicker Header="From Date" 
+        <!-- Date Filters -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="16" Margin="0,0,0,16">
+            <CalendarDatePicker Header="From Date" 
                                 Date="{x:Bind ViewModel.FromDate, Mode=TwoWay}"
-                                MinWidth="150"/&gt;
+                                MinWidth="150"/>
             
-            &lt;CalendarDatePicker Header="To Date" 
+            <CalendarDatePicker Header="To Date" 
                                 Date="{x:Bind ViewModel.ToDate, Mode=TwoWay}"
-                                MinWidth="150"/&gt;
+                                MinWidth="150"/>
 
-            &lt;Button Command="{x:Bind ViewModel.LoadHistoryCommand}" 
+            <Button Command="{x:Bind ViewModel.LoadHistoryCommand}" 
                     VerticalAlignment="Bottom"
-                    Margin="0,0,0,4"&gt;
-                &lt;StackPanel Orientation="Horizontal" Spacing="8"&gt;
-                    &lt;FontIcon Glyph="&amp;#xE72C;" FontSize="14"/&gt;
-                    &lt;TextBlock Text="Refresh"/&gt;
-                &lt;/StackPanel&gt;
-            &lt;/Button&gt;
-        &lt;/StackPanel&gt;
+                    Margin="0,0,0,4">
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <FontIcon Glyph="&#xE72C;" FontSize="14"/>
+                    <TextBlock Text="Refresh"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
 
-        &lt;!-- History DataGrid --&gt;
-        &lt;Grid Grid.Row="2"&gt;
-            &lt;ctWinUI:DataGrid ItemsSource="{x:Bind ViewModel.Histories, Mode=OneWay}"
+        <!-- History DataGrid -->
+        <Grid Grid.Row="2">
+            <ctWinUI:DataGrid ItemsSource="{x:Bind ViewModel.Histories, Mode=OneWay}"
                               AutoGenerateColumns="False"
                               IsReadOnly="True"
                               GridLinesVisibility="Horizontal"
                               BorderThickness="1"
                               BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
-                              CornerRadius="4"&gt;
-                &lt;ctWinUI:DataGrid.Columns&gt;
-                    &lt;ctWinUI:DataGridTextColumn Header="Date" 
+                              CornerRadius="4">
+                <ctWinUI:DataGrid.Columns>
+                    <ctWinUI:DataGridTextColumn Header="Date" 
                                                 Binding="{Binding CreatedDate, Converter={StaticResource DateTimeToStringConverter}}" 
-                                                Width="150"/&gt;
-                    &lt;ctWinUI:DataGridTextColumn Header="Location" 
+                                                Width="150"/>
+                    <ctWinUI:DataGridTextColumn Header="Location" 
                                                 Binding="{Binding Location.Name}" 
-                                                Width="120"/&gt;
-                    &lt;ctWinUI:DataGridTextColumn Header="Type" 
+                                                Width="120"/>
+                    <ctWinUI:DataGridTextColumn Header="Type" 
                                                 Binding="{Binding TransactionType}" 
-                                                Width="120"/&gt;
-                    &lt;ctWinUI:DataGridTextColumn Header="Quantity" 
+                                                Width="120"/>
+                    <ctWinUI:DataGridTextColumn Header="Quantity" 
                                                 Binding="{Binding Quantity}" 
-                                                Width="100"/&gt;
-                    &lt;ctWinUI:DataGridTextColumn Header="Balance" 
+                                                Width="100"/>
+                    <ctWinUI:DataGridTextColumn Header="Balance" 
                                                 Binding="{Binding BalanceQuantity}" 
-                                                Width="100"/&gt;
-                    &lt;ctWinUI:DataGridTextColumn Header="Notes" 
+                                                Width="100"/>
+                    <ctWinUI:DataGridTextColumn Header="Notes" 
                                                 Binding="{Binding Notes}" 
-                                                Width="*"/&gt;
-                &lt;/ctWinUI:DataGrid.Columns&gt;
-            &lt;/ctWinUI:DataGrid&gt;
+                                                Width="*"/>
+                </ctWinUI:DataGrid.Columns>
+            </ctWinUI:DataGrid>
 
-            &lt;!-- Loading Indicator --&gt;
-            &lt;ProgressRing IsActive="{x:Bind ViewModel.IsLoading, Mode=OneWay}"
+            <!-- Loading Indicator -->
+            <ProgressRing IsActive="{x:Bind ViewModel.IsLoading, Mode=OneWay}"
                           Width="50" Height="50"
-                          HorizontalAlignment="Center" VerticalAlignment="Center"/&gt;
+                          HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-            &lt;!-- Empty State --&gt;
-            &lt;StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"
+            <!-- Empty State -->
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"
                         Spacing="12"
-                        Visibility="{x:Bind ViewModel.Histories.Count, Converter={StaticResource InverseBooleanToVisibilityConverter}, Mode=OneWay}"&gt;
-                &lt;FontIcon Glyph="&amp;#xE81C;" FontSize="48" 
-                          Foreground="{ThemeResource TextFillColorSecondaryBrush}"/&gt;
-                &lt;TextBlock Text="No history records found" 
+                        Visibility="{x:Bind ViewModel.Histories.Count, Converter={StaticResource InverseBooleanToVisibilityConverter}, Mode=OneWay}">
+                <FontIcon Glyph="&#xE81C;" FontSize="48" 
+                          Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+                <TextBlock Text="No history records found" 
                            Style="{StaticResource SubtitleTextBlockStyle}" 
-                           HorizontalAlignment="Center"/&gt;
-                &lt;TextBlock Text="Try adjusting the date range" 
+                           HorizontalAlignment="Center"/>
+                <TextBlock Text="Try adjusting the date range" 
                            Style="{StaticResource BodyTextBlockStyle}" 
                            Foreground="{ThemeResource TextFillColorSecondaryBrush}" 
-                           HorizontalAlignment="Center"/&gt;
-            &lt;/StackPanel&gt;
-        &lt;/Grid&gt;
-    &lt;/Grid&gt;
-&lt;/ContentDialog&gt;
+                           HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</ContentDialog>

@@ -14,6 +14,7 @@ public partial class StockAdjustmentViewModel : ObservableObject
     private readonly ILocationService _locationService;
     private readonly IProductService _productService;
     private readonly ISessionService _sessionService;
+    private readonly IDialogService _dialogService;
 
     [ObservableProperty]
     private Entities.Product? _selectedProduct;
@@ -37,24 +38,36 @@ public partial class StockAdjustmentViewModel : ObservableObject
     private string? _reference;
 
     [ObservableProperty]
+    private bool _isSaveSuccessful;
+
+    [ObservableProperty]
     private ObservableCollection<Location> _locations = new();
 
     public StockAdjustmentViewModel(
         IStockService stockService,
         ILocationService locationService,
         IProductService productService,
-        ISessionService sessionService)
+        ISessionService sessionService,
+        IDialogService dialogService)
     {
         _stockService = stockService;
         _locationService = locationService;
         _productService = productService;
         _sessionService = sessionService;
+        _dialogService = dialogService;
     }
     
     public async Task InitializeAsync(ProductStock? stock)
     {
+        var businessId = _sessionService.CurrentBusiness?.Id;
+        if (businessId == null)
+        {
+            await _dialogService.ShowErrorAsync("Error", "No active business session found.");
+            return;
+        }
+
         // Load locations
-        var locations = await _locationService.GetLocationsByBusinessIdAsync(1); // TODO: Use business id
+        var locations = await _locationService.GetLocationsByBusinessIdAsync(businessId.Value);
         Locations.Clear();
         foreach (var loc in locations)
         {
@@ -70,11 +83,20 @@ public partial class StockAdjustmentViewModel : ObservableObject
     }
 
     [RelayCommand]
-    public async Task SaveAsync()
+    public async Task<bool> SaveAsync()
     {
-        if (SelectedProduct == null || SelectedLocation == null || Quantity < 0)
+        if (SelectedProduct == null || SelectedLocation == null)
         {
-            return;
+            await _dialogService.ShowWarningAsync("Validation Error", "Please select a product and location.");
+            IsSaveSuccessful = false;
+            return false;
+        }
+
+        if (Quantity < 0)
+        {
+            await _dialogService.ShowWarningAsync("Validation Error", "Quantity cannot be negative.");
+            IsSaveSuccessful = false;
+            return false;
         }
 
         decimal adjustmentQuantity = Quantity;
@@ -97,7 +119,12 @@ public partial class StockAdjustmentViewModel : ObservableObject
             }
         }
 
-        if (adjustmentQuantity == 0) return;
+        if (adjustmentQuantity == 0)
+        {
+            await _dialogService.ShowWarningAsync("No Change", "The adjustment results in no change to the stock quantity.");
+            IsSaveSuccessful = false;
+            return false;
+        }
 
         try
         {
@@ -110,11 +137,14 @@ public partial class StockAdjustmentViewModel : ObservableObject
                 Reference
             );
             
-            // Close dialog handled by view code-behind or DialogService result
+            IsSaveSuccessful = true;
+            return true;
         }
         catch (System.Exception ex)
         {
-            // TODO: Handle error
+            await _dialogService.ShowErrorAsync("Error", $"Failed to save adjustment: {ex.Message}");
+            IsSaveSuccessful = false;
+            return false;
         }
     }
 }
