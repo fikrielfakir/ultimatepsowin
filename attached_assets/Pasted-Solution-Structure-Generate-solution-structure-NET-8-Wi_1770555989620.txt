@@ -1,0 +1,360 @@
+Solution Structure
+ Generate solution structure (.NET 8, WinUI 3, Windows App SDK 1.5)
+ UltimatePOS.Core (entities and interfaces)
+ UltimatePOS.Data (EF Core + SQLite)
+ UltimatePOS.Services (business logic)
+ UltimatePOS.WinUI (main application)
+ UltimatePOS.Tests (unit tests)
+Database Schema
+ Design and generate database schema with EF Core
+ Multi-business and location entities
+ User management and RBAC entities
+ Product entities (single, variable, lots)
+ Customer and supplier entities
+ Purchase and sale entities
+ Stock and inventory entities
+ Manufacturing entities (BOM, production)
+ Expense and payment entities
+ Tax and cash register entities
+ Configure relationships (partial - basic relationships done)
+ Generate and apply migrations
+Base Architecture
+ Generate base architecture classes
+ MVVM base classes (ViewModelBase, RelayCommand, AsyncRelayCommand)
+ Repository pattern (IRepository, IUnitOfWork)
+ Implement Repository pattern
+ Implement Unit of Work
+ Service base classes
+ Dependency injection setup
+ Navigation service
+ Dialog service
+ Message bus
+App Configuration
+ Generate app configuration system
+ AppSettings.json structure (basic version exists)
+ Configuration service
+ Theme configuration (Light/Dark)
+ Localization setup
+ Serilog logging configuration
+Phase 2: Authentication & User Management
+Authentication System
+ Generate authentication system
+ BCrypt password hashing for User entity
+ Authentication service (login/logout)
+ Session management with tokens
+ Login view (XAML) and ViewModel
+ Password reset functionality
+ Remember Me feature
+ Session timeout (30 minutes)
+RBAC System
+ Generate RBAC system (partial)
+ Role entity with permissions
+ Permission constants for all modules
+ Permission checking service
+ Attribute-based authorization
+ Default roles seeded (Admin, Cashier, Warehouse Manager)
+User Management UI
+ Generate user management UI
+ User list view with DataGrid
+ Add/Edit user form
+ User details view
+ Password change dialog
+ User activation/deactivation
+Phase 3: Multi-Business & Location Management
+Business Management
+ Generate business management module
+ Business service
+ Business list view and ViewModel
+ Business add/edit form
+ Business switching functionality
+ Business settings page
+ Dashboard for current business
+Location/Warehouse Management
+ Generate location/warehouse management
+ Location service
+ Location list view
+ Add/edit location form
+ Location switching
+ Location-based stock visibility
+ Print settings per location
+Phase 4: Product & Inventory Management
+Product Core
+ Generate product entities (completed)
+ Product, ProductVariant entities
+ Brand, Category, SubCategory, Unit entities
+ ProductStock and StockHistory
+ Pricing and selling price groups
+ Barcode and lot tracking (entities exist, tracking logic needed)
+Product List UI
+ Generate product list UI
+ DataGrid with search and filters
+ Pagination and sorting
+ Quick actions and bulk operations
+ Stock alert indicators
+Product Form
+ Generate add/edit product form
+ Product type selection
+ Basic info and pricing sections
+ Stock and variant sections
+ Image upload
+ Form validation
+Barcode System
+ Generate barcode system
+ Barcode generation (ZXing.Net)
+ Label designer with templates
+ Print dialog and bulk printing
+ QR code generation
+Stock Management
+Stock Management
+Generate stock management
+ Current stock view (Service & UI Implemented)
+ Stock alerts and notifications (Low stock filter Implemented)
+ Stock adjustment form
+ Stock transfer between locations
+ Stock history view
+ Reorder level management
+ Stock take/physical inventory
+Import/Export
+ Generate product import/export
+ Excel import with validation
+ Excel/CSV export
+ Image bulk upload
+ Import preview
+Phase 5: Contact Management (CRM)
+Contact Entities
+ Generate contact entities
+ Contact entity (Customer/Supplier)
+ ContactGroup entity
+ LoyaltyCard entities
+ ContactTransaction for ledger
+ PaymentTerm entity
+Contact UI
+ Generate contact management UI
+ Contact list with tabs
+ Add/Edit contact form
+ Contact details page with tabs
+ Quick payment dialog
+ Send statement via email
+Loyalty System
+ Generate loyalty and rewards system
+ Loyalty card generation
+ Points earning and redemption rules
+ Points history tracking
+ Loyalty tier system
+ Loyalty UI in POS
+ Loyalty reports
+Phase 6: Purchase Management
+Purchase Entities
+ Generate purchase entities (partial)
+ PurchaseOrder, PurchaseOrderItem
+ PurchaseInvoice, PurchaseReturn
+ PurchasePayment tracking
+ Status workflow
+Purchase Order UI
+ Generate purchase order UI
+ PO list with filters
+ Create PO form
+ PO actions and preview
+ Supplier comparison view
+Purchase Invoice & Payment
+ Generate purchase invoice and payment
+ Convert PO to invoice
+ Direct purchase invoice
+ Receive goods form
+ Payment tracking and alerts
+ Supplier payment allocation
+Purchase Returns
+ Generate purchase returns
+ Return form with reasons
+ Stock adjustment
+ Credit note generation
+ Return payment/refund tracking
+Phase 7: Point of Sale (POS) Module
+POS Interface
+ Generate POS main interface
+ Product grid with category filter
+ Shopping cart with item management
+ Action panel (customer, discount, payment)
+ Keyboard shortcuts
+ Barcode scanner support
+Payment Processing
+ Generate POS payment processing
+ Payment dialog
+ Cash, Card, Mobile, Credit payments
+ Multiple payment methods
+ Receipt printing
+ Customer display screen support
+POS Features
+ Generate POS features
+ Hold/suspend sale
+ Quotation generation
+ Discount application
+ Gift receipt
+ Offline mode
+ Quick product creation
+Cash Register
+ Generate cash register management
+ Open register with denomination counting
+ Cash in/out operations
+ Close register with reconciliation
+ Shift report
+ Multiple register support
+Phase 8: Sales Management
+Sales Invoice
+ Generate sales invoice system (entities done)
+ Sales invoice entity
+ Invoice list view with filters
+ Create invoice form
+ Proforma invoice and sales order
+ Invoice status workflow
+ Invoice customization
+Sales Returns
+ Generate sales returns and credit notes
+ Return form with types (Refund/Exchange/Credit)
+ Stock adjustment
+ Refund processing
+ Exchange transactions
+ Return approval workflow
+Pricing & Discounts
+ Generate pricing and discount engine
+ Selling price groups
+ Location-based pricing
+ Discount rules engine
+ Promotional campaigns
+ Coupon system
+ Bulk price update tool
+Phase 9: Manufacturing Module
+Bill of Materials
+ Generate Bill of Materials (BOM)
+ BOM entity and service
+ BOM creation form
+ BOM costing calculator
+ BOM version control
+Production Orders
+ Generate production orders
+ Production order entity
+ Create production order form
+ Production processing workflow
+ Production cost tracking
+ Material shortage alerts
+Phase 10: Expense Management
+Expense System
+ Generate expense system
+ ExpenseCategory and Expense entities
+ Expense list view
+ Add expense form
+ Expense approval workflow
+ Recurring expenses
+ Expense reports
+Phase 11: Reports & Analytics
+Dashboard
+ Generate dashboard
+ KPI cards
+ Charts (sales trend, top products, etc.)
+ Recent transactions
+ Alert widgets
+ Auto-refresh
+Sales Reports
+ Generate sales reports
+ Sales summary and detail
+ Product and category sales
+ Customer sales report
+ Employee performance
+ Payment method breakdown
+ Profit report
+Purchase & Stock Reports
+ Generate purchase and stock reports
+ Purchase summary and detail
+ Current stock and valuation
+ Stock movement
+ Low stock and dead stock
+ ABC analysis
+Financial Reports
+ Generate financial reports
+ Profit & Loss statement
+ Balance sheet
+ Cash flow statement
+ Tax reports
+ Customer and supplier ledgers
+ Accounts receivable/payable aging
+Phase 12: Printing & Hardware Integration
+Invoice Templates
+ Generate invoice templates
+ Multiple template layouts
+ Invoice layout designer
+ Template preview
+ PDF generation (QuestPDF or PdfSharp)
+Thermal Printer
+ Generate thermal printer integration
+ ESC/POS command generation
+ Receipt builder
+ Printer settings
+ Kitchen printer support
+Hardware Integration
+ Generate hardware integration
+ Barcode scanner listener
+ Cash drawer control
+ Customer display screen
+ Card reader integration
+ Scale/weighing machine
+ Label printer (Zebra ZPL)
+Phase 13: System Configuration & Settings
+Settings UI
+ Generate general settings UI
+ General tab (business info, currency, timezone)
+ Tax settings
+ Invoice settings
+ POS settings
+ Notification settings
+Backup & Restore
+ Generate backup and restore
+ Manual backup
+ Scheduled backup
+ Backup retention policy
+ Restore functionality
+ Data export/import
+ Database optimization
+Phase 14: Testing & Quality
+Unit Tests
+ Generate unit tests
+ Service layer tests
+ Repository tests
+ ViewModel tests
+ Calculation tests
+ Validation tests
+Integration Tests
+ Generate integration test scenarios
+ Complete sale flow
+ Purchase flow
+ Stock transfer
+ Manufacturing workflow
+ Returns processing
+ Multi-user concurrent operations
+Phase 15: Deployment & Distribution
+MSIX Package
+ Generate MSIX package
+ Configure Package.appxmanifest
+ Create AppInstaller
+ Code signing
+ Test installation
+Update System
+ Generate update system
+ Version checking
+ Update notification
+ Background download
+ Install and restart
+ Rollback option
+Phase 16: Documentation
+User Manual
+ Generate user manual
+ Getting Started Guide
+ Feature Guides
+ FAQ and troubleshooting
+ Keyboard shortcuts reference
+Technical Documentation
+ Generate technical documentation
+ Architecture overview
+ Database schema documentation
+ API documentation
+ Deployment guide
+ Performance tuning guide
