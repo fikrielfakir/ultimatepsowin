@@ -1,4 +1,4 @@
-modules = ["dotnet-7.0", "dotnet-8.0"]
+modules = ["dotnet-8.0"]
 [agent]
 expertMode = true
 
@@ -21,9 +21,9 @@ args = "Build and Test"
 name = "Build and Test"
 author = "agent"
 
+[workflows.workflow.metadata]
+outputType = "console"
+
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "dotnet build src/UltimatePOS.Core && dotnet build src/UltimatePOS.Data && dotnet build src/UltimatePOS.Services && dotnet test tests/UltimatePOS.Tests"
-
-[workflows.workflow.metadata]
-outputType = "console"
